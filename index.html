@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maman &amp; Vertus — Du Miel pour le Coeur de ton Enfant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&amp;family=Gabriela&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+:root {
+  --or-gradient: linear-gradient(135deg,#BF953F 0%,#FCF6BA 25%,#B38728 50%,#FBF5B7 75%,#AA771C 100%);
+  --or-text: #B8860B;
+  --or-warm: #C4A265;
+  --or-soft: rgba(184,134,11,0.08);
+  --or-border: rgba(184,134,11,0.18);
+  --prune-dark: #311511;
+  --prune-royal: #5A3A2A;
+  --prune-light: #7A5C4A;
+  --prune-gradient: linear-gradient(135deg,#311511 0%,#4A2E20 100%);
+  --creme-bg: #FFFAF8;
+  --creme-warm: #FFF6EF;
+  --creme-deep: #F5EDE4;
+  --sable: #EDE4D8;
+  --blanc: #FFFFFF;
+  --text-main: #311511;
+  --text-muted: #7A5C4A;
+  --text-soft: #A68B78;
+  --red-soft: #C0756B;
+  --green-soft: #8BA87B;
+  --shadow-soft: 0 10px 40px -10px rgba(59,35,24,0.08);
+  --shadow-medium: 0 16px 48px -12px rgba(59,35,24,0.12);
+  --shadow-gold: 0 15px 35px -5px rgba(184,134,11,0.15);
+  --shadow-lifted: 0 20px 60px -15px rgba(59,35,24,0.14);
+  --radius: 24px;
+  --radius-sm: 16px;
+  --radius-xs: 10px;
+  --glass-bg: rgba(255,250,248,0.82);
+  --glass-border: rgba(255,255,255,0.45);
+  --blur: blur(16px);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-accent: 'Gabriela', Georgia, serif;
+  --max-w: 1140px;
+  --section-py: clamp(72px,12vw,130px);
+  --ease-out: cubic-bezier(0.22,1,0.36,1);
+  --ease-spring: cubic-bezier(0.34,1.56,0.64,1);
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--font-body);background:var(--creme-bg);color:var(--text-main);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block;height:auto}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;border:none;background:none;font-family:inherit}
+ul{list-style:none}
+.container{max-width:var(--max-w);margin:0 auto;padding:0 clamp(20px,5vw,44px)}
+.s-label{font-family:var(--font-body);font-size:.68rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--or-text);display:inline-flex;align-items:center;gap:10px}
+.s-label::before{content:'';width:28px;height:1.5px;background:var(--or-gradient);border-radius:2px}
+.s-title{font-family:var(--font-display);font-size:clamp(1.7rem,4.2vw,2.7rem);font-weight:700;line-height:1.18;color:var(--text-main);margin-top:12px}
+.s-title i{font-style:italic;color:var(--or-text)}
+.s-sub{font-family:var(--font-accent);font-size:clamp(.92rem,1.6vw,1.02rem);color:var(--text-muted);line-height:1.8;margin-top:14px;max-width:520px}
+.btn-or{display:inline-flex;align-items:center;gap:10px;padding:15px 34px;background:var(--or-gradient);background-size:200% 200%;color:var(--prune-dark);font-family:var(--font-body);font-weight:700;font-size:.85rem;letter-spacing:.06em;border-radius:60px;position:relative;overflow:hidden;box-shadow:var(--shadow-gold);transition:transform .4s var(--ease-spring),box-shadow .4s}
+.btn-or::after{content:'';position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);transform:translateX(-100%);transition:transform .7s}
+.btn-or:hover::after{transform:translateX(100%)}
+.btn-or:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 20px 45px -8px rgba(184,134,11,.28)}
+.btn-or svg{width:16px;height:16px;fill:currentColor;flex-shrink:0}
+.btn-ghost{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border:1.5px solid var(--or-border);color:var(--or-text);font-family:var(--font-body);font-weight:600;font-size:.82rem;letter-spacing:.04em;border-radius:60px;transition:all .35s var(--ease-out);background:transparent}
+.btn-ghost:hover{background:var(--or-soft);border-color:var(--or-text);transform:translateY(-2px)}
+.ornament{display:flex;align-items:center;justify-content:center;gap:14px;padding:36px 0;background:#FFFFFF url('https://mamanetvertus.com/wp-content/uploads/2026/02/Zazao_black_and_white_Afrocentric_inspired_sharp_pattern_that_r_36ed5d79-4e0c-471c-9be9-d4cbd4fe4192-scaled.jpg') center center/400px repeat}
+.ornament .line{width:60px;height:2px;background:linear-gradient(90deg,transparent,#C4A265,#D4AF37,#C4A265,transparent);position:relative;z-index:2;box-shadow:0 0 8px rgba(196,162,101,.5)}
+.ornament svg{width:18px;height:18px;opacity:1;position:relative;z-index:2;filter:drop-shadow(0 0 6px rgba(212,175,55,.6))}
+.reveal{opacity:0;transform:translateY(36px);transition:opacity .9s var(--ease-out),transform .9s var(--ease-out)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-d1{transition-delay:.1s}.reveal-d2{transition-delay:.2s}.reveal-d3{transition-delay:.3s}.reveal-d4{transition-delay:.4s}
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;transition:background .4s,box-shadow .4s}
+.nav.scrolled{background:var(--glass-bg);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);box-shadow:0 1px 30px rgba(59,35,24,.06);border-bottom:1px solid var(--glass-border)}
+.nav-inner{max-width:var(--max-w);margin:0 auto;padding:16px clamp(20px,5vw,44px);display:flex;align-items:center;justify-content:space-between}
+.nav-logo{font-family:var(--font-display);font-size:1.2rem;font-weight:700;color:var(--prune-dark)}
+.nav-logo span{font-weight:400;color:var(--or-text)}
+.nav-links{display:flex;align-items:center;gap:clamp(18px,3vw,36px)}
+.nav-links a{font-size:.78rem;font-weight:500;color:var(--text-muted);letter-spacing:.03em;position:relative;transition:color .3s}
+.nav-links a::after{content:'';position:absolute;bottom:-3px;left:0;width:0;height:1.5px;background:var(--or-gradient);transition:width .35s var(--ease-out)}
+.nav-links a:hover{color:var(--prune-dark)}
+.nav-links a:hover::after{width:100%}
+.nav-cta{padding:9px 22px!important;background:var(--or-gradient)!important;background-size:200% 200%!important;color:var(--prune-dark)!important;border-radius:40px;font-weight:700!important;box-shadow:0 4px 16px rgba(184,134,11,.18);transition:transform .3s var(--ease-spring),box-shadow .3s!important}
+.nav-cta::after{display:none!important}
+.nav-cta:hover{transform:translateY(-2px) scale(1.03);box-shadow:0 8px 24px rgba(184,134,11,.25)}
+.burger{display:none;flex-direction:column;gap:5px;width:24px;cursor:pointer}
+.burger span{display:block;width:100%;height:2px;background:var(--prune-dark);border-radius:2px;transition:.3s}
+@media(max-width:768px){.burger{display:flex}.nav-links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--glass-bg);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);padding:24px 32px;gap:18px;border-bottom:1px solid var(--glass-border);box-shadow:var(--shadow-soft)}.nav-links.open{display:flex}}
+/* HERO */
+.hero{display:flex;align-items:center;position:relative;background:linear-gradient(175deg,var(--creme-warm) 0%,var(--creme-bg) 40%,var(--creme-deep) 100%);overflow:hidden;padding-top:110px}
+.hero-shape-1{position:absolute;top:-80px;right:-120px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(184,134,11,.06),transparent 70%);pointer-events:none}
+.hero-shape-2{position:absolute;bottom:-60px;left:-100px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(59,35,24,.03),transparent 70%);pointer-events:none}
+.hero-dots{position:absolute;inset:0;opacity:.025;background-image:radial-gradient(var(--or-warm) 1px,transparent 1px);background-size:32px 32px;pointer-events:none}
+.hero-layout{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,60px);align-items:center;padding:clamp(20px,3vw,40px) 0 clamp(40px,5vw,60px)}
+@media(max-width:880px){.hero-layout{grid-template-columns:1fr;text-align:center}.hero-text .s-label{justify-content:center}.hero-text .s-sub{margin-left:auto;margin-right:auto}.hero-visual{order:-1}.hero-float.f1{right:-4%}.hero-float.f3{right:-6%}.hero-float.f2{left:-2%}}
+.trust-badge{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;background:var(--blanc);border:1px solid var(--or-border);border-radius:40px;margin-bottom:24px;box-shadow:0 4px 16px rgba(184,134,11,.06)}
+.trust-stars{display:flex;gap:2px}
+.trust-stars svg{width:13px;height:13px;fill:var(--or-text)}
+.trust-label{font-size:.68rem;color:var(--text-muted);font-weight:500}
+.hero-h1{font-family:var(--font-display);font-size:clamp(2.2rem,5.5vw,3.6rem);font-weight:800;line-height:1.1;color:var(--prune-dark)}
+.hero-h1 i{font-style:italic;background:var(--or-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-desc{font-family:var(--font-accent);font-size:clamp(.9rem,1.5vw,1rem);color:var(--text-muted);line-height:1.85;margin:18px 0 8px;max-width:440px}
+.loyalty{display:inline-flex;align-items:center;gap:7px;font-size:.7rem;font-weight:600;color:var(--or-text);letter-spacing:.04em;margin-bottom:28px}
+.loyalty svg{width:13px;height:13px;fill:var(--or-text)}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+@media(max-width:880px){.hero-actions{justify-content:center}}
+.hero-stats{display:flex;gap:clamp(24px,4vw,50px);margin-top:clamp(36px,5vw,56px)}
+@media(max-width:880px){.hero-stats{justify-content:center}}
+.stat{text-align:center}
+.stat-num{font-family:var(--font-display);font-size:clamp(1.6rem,3.5vw,2.3rem);font-weight:700;color:var(--prune-dark);line-height:1}
+.stat-num small{font-size:.55em;font-weight:400;color:var(--or-text)}
+.stat-lbl{font-size:.65rem;font-weight:500;color:var(--text-soft);letter-spacing:.1em;text-transform:uppercase;margin-top:5px}
+.hero-visual{display:flex;justify-content:center;align-items:center;position:relative;overflow:visible}
+.hero-house{width:clamp(280px,35vw,420px);height:clamp(300px,38vw,460px);border-radius:var(--radius);overflow:hidden;background:var(--blanc);box-shadow:var(--shadow-lifted);position:relative;transition:transform .6s var(--ease-out)}
+.hero-house:hover{transform:translateY(-6px) rotate(.5deg)}
+.hero-house img{width:100%;height:100%;object-fit:cover;object-position:center 15%}
+.hero-float{position:absolute;background:var(--blanc);border-radius:var(--radius-sm);padding:10px 14px;box-shadow:var(--shadow-soft);font-size:.7rem;font-weight:600;color:var(--text-main);display:flex;align-items:center;gap:7px;animation:hfloat 4s ease-in-out infinite}
+.hero-float svg{width:16px;height:16px}
+.hero-float.f1{top:12%;right:-10%;animation-delay:0s}
+.hero-float.f2{bottom:18%;left:-8%;animation-delay:1.2s}
+.hero-float.f3{top:55%;right:-14%;animation-delay:.6s}
+@keyframes hfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@media(max-width:640px){.hero-float{font-size:.6rem;padding:7px 10px;box-shadow:0 2px 10px rgba(0,0,0,.08)}.hero-float.f1{top:8%;right:-2%}.hero-float.f2{bottom:12%;left:-2%}.hero-float.f3{top:52%;right:-4%}}
+/* CONSTAT */
+.constat{padding:var(--section-py) 0;background:#FFFFFF url('https://mamanetvertus.com/wp-content/uploads/2026/02/Zazao_httpss-3-scaled.jpg') left top/800px repeat;position:relative;overflow:hidden}
+.constat>.container{position:relative;z-index:1}
+.constat-head{text-align:center;max-width:600px;margin:0 auto 48px}
+.constat-head .s-label{justify-content:center}
+.constat-head .s-label::before{display:none}
+.constat-quote{font-family:var(--font-display);font-style:italic;font-size:clamp(.92rem,1.6vw,1.05rem);color:var(--text-muted);line-height:1.85;border-left:3px solid;border-image:var(--or-gradient) 1;padding-left:20px;margin-top:22px}
+.constat-quote span.hl,.s-title span.hl{background:rgba(255,255,255,.92);padding:4px 8px;box-decoration-break:clone;-webkit-box-decoration-break:clone;box-shadow:4px 0 0 rgba(255,255,255,.92),-4px 0 0 rgba(255,255,255,.92),0 2px 8px rgba(49,21,17,.06)}
+.constat-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:860px;margin:0 auto}
+@media(max-width:640px){.constat-grid{grid-template-columns:1fr}}
+.ccard{padding:clamp(28px,4vw,40px);border-radius:var(--radius);position:relative;overflow:hidden;transition:transform .4s var(--ease-out),box-shadow .4s}
+.ccard:hover{transform:translateY(-4px);box-shadow:var(--shadow-medium)}
+.ccard--bad{background:#FFFFFF;border:1px solid rgba(192,117,107,.12)}
+.ccard--good{background:#FFFDF8;border:1px solid var(--or-border)}
+.ccard-ico{width:50px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.ccard--bad .ccard-ico{background:rgba(192,117,107,.1)}
+.ccard--good .ccard-ico{background:rgba(184,134,11,.08)}
+.ccard-ico svg{width:22px;height:22px}
+.ccard h3{font-family:var(--font-display);font-size:1.08rem;font-weight:700;margin-bottom:10px}
+.ccard p{font-size:.88rem;color:var(--text-muted);line-height:1.75}
+/* ARBRE */
+.arbre{padding:var(--section-py) 0;background:linear-gradient(180deg,var(--creme-bg),var(--creme-warm))}
+.arbre-header{text-align:center;margin-bottom:48px}
+.arbre-layout{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,80px);align-items:center}
+.arbre-visual{position:relative}
+.arbre-visual img{width:100%;max-width:480px;height:auto;border-radius:var(--radius);box-shadow:var(--shadow-lifted)}
+.arbre-content{position:relative}
+.arbre-wrap{position:relative;padding:16px 0}
+.arbre-trunk{position:absolute;left:30px;top:0;bottom:0;width:2px;background:var(--or-gradient);opacity:.35;border-radius:2px}
+.arbre-lvl{position:relative;z-index:2;display:flex;align-items:center;gap:22px;padding:20px 0}
+.arbre-node{width:60px;height:60px;min-width:60px;border-radius:50%;background:var(--blanc);border:2px solid transparent;background-clip:padding-box;position:relative;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-gold);transition:transform .4s var(--ease-spring)}
+.arbre-node::before{content:'';position:absolute;inset:-2px;border-radius:50%;background:var(--or-gradient);z-index:-1}
+.arbre-node:hover{transform:scale(1.1)}
+.arbre-node svg{width:24px;height:24px;fill:var(--or-text)}
+.arbre-info h4{font-family:var(--font-display);font-size:.98rem;font-weight:700;color:var(--text-main);margin-bottom:3px}
+.arbre-info p{font-size:.78rem;color:var(--text-muted)}
+@media(max-width:880px){.arbre-layout{grid-template-columns:1fr}.arbre-visual{order:-1;text-align:center}.arbre-visual img{max-width:320px;margin:0 auto}}
+@media(max-width:640px){.arbre-node{width:50px;height:50px;min-width:50px}.arbre-trunk{left:25px}}
+/* BOUSSOLE */
+.boussole{padding:var(--section-py) 0;background:var(--prune-dark);position:relative;overflow:hidden}
+.boussole::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(184,134,11,.06),transparent 65%);top:-250px;right:-200px;pointer-events:none}
+.boussole .container{position:relative;z-index:2}
+.boussole .s-label{color:var(--or-warm);justify-content:center}
+.boussole .s-label::before{background:var(--or-warm)}
+.boussole .s-title{color:var(--creme-bg);text-align:center}
+.boussole .s-title i{color:var(--or-warm)}
+.boussole-oracle{text-align:center;font-family:var(--font-accent);font-style:italic;font-size:.9rem;color:rgba(255,250,248,.4);margin:6px 0 42px}
+.boussole-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;max-width:960px;margin:0 auto}
+.bcard{background:rgba(255,250,248,.04);border:1px solid rgba(184,134,11,.1);border-radius:var(--radius);padding:clamp(24px,3.5vw,34px);cursor:pointer;transition:background .35s,border-color .35s,transform .4s var(--ease-out)}
+.bcard:hover{background:rgba(184,134,11,.06);border-color:rgba(184,134,11,.25);transform:translateY(-5px)}
+.bcard-ico{width:48px;height:48px;border-radius:14px;background:rgba(184,134,11,.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.bcard-ico svg{width:22px;height:22px;stroke:var(--or-warm);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.bcard h3{font-family:var(--font-display);font-size:1rem;color:var(--creme-bg);margin-bottom:7px}
+.bcard p{font-size:.78rem;color:rgba(255,250,248,.45);line-height:1.65}
+.bcard-reveal{max-height:0;overflow:hidden;transition:max-height .5s var(--ease-out),margin .3s}
+.bcard.active .bcard-reveal{max-height:180px;margin-top:16px}
+.bcard-reveal-inner{padding-top:14px;border-top:1px solid rgba(184,134,11,.12)}
+.reveal-prog{font-size:.72rem;font-weight:600;color:var(--or-warm);letter-spacing:.04em}
+.reveal-price{font-family:var(--font-display);font-size:1.25rem;color:var(--creme-bg);margin:5px 0}
+.reveal-link{display:inline-flex;align-items:center;gap:6px;font-size:.75rem;color:var(--or-warm);transition:gap .3s}
+.reveal-link:hover{gap:10px}
+.reveal-link svg{width:13px;height:13px;fill:var(--or-warm)}
+.boussole-joker{text-align:center;margin-top:28px}
+.boussole-joker button{font-size:.78rem;color:rgba(255,250,248,.35);border-bottom:1px dashed rgba(184,134,11,.25);padding-bottom:2px;transition:color .3s}
+.boussole-joker button:hover{color:var(--or-warm)}
+/* CRISTAL */
+.cristal{padding:50px 0 var(--section-py);background:var(--prune-dark)}
+.cristal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;max-width:960px;margin:0 auto}
+.cristal-card{background:rgba(255,250,248,.03);border:1px solid rgba(184,134,11,.06);border-radius:var(--radius-sm);padding:26px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:border-color .35s,transform .4s var(--ease-out)}
+.cristal-card:hover{border-color:rgba(184,134,11,.18);transform:translateY(-3px)}
+.cristal-stars{display:flex;gap:2px;margin-bottom:12px}
+.cristal-stars svg{width:11px;height:11px;fill:var(--or-warm)}
+.cristal-card blockquote{font-family:var(--font-display);font-style:italic;font-size:.88rem;color:rgba(255,250,248,.65);line-height:1.75;margin-bottom:12px}
+.cristal-author{font-size:.68rem;color:rgba(184,134,11,.5);letter-spacing:.05em;font-weight:500}
+/* GARDIENNE */
+.gardienne{padding:var(--section-py) 0;background:var(--creme-bg)}
+.gardienne-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(32px,6vw,64px);align-items:center}
+@media(max-width:768px){.gardienne-layout{grid-template-columns:1fr;text-align:center}.gardienne-text .s-label{justify-content:center}.gardienne-text .s-sub{margin-left:auto;margin-right:auto}}
+.gardienne-photo-wrap{position:relative;display:flex;justify-content:center}
+.gardienne-photo-frame{width:clamp(240px,36vw,340px);height:clamp(300px,46vw,420px);border-radius:var(--radius);overflow:hidden;border:3px solid transparent;background-clip:padding-box;position:relative;box-shadow:var(--shadow-gold);transform:rotate(-2.5deg);transition:transform .6s var(--ease-out)}
+.gardienne-photo-frame::before{content:'';position:absolute;inset:-3px;border-radius:var(--radius);background:var(--or-gradient);z-index:-1}
+.gardienne-photo-frame:hover{transform:rotate(0deg)}
+.gardienne-photo-frame img{width:100%;height:100%;object-fit:cover}
+.gardienne-badge{position:absolute;bottom:-12px;right:8px;background:var(--or-gradient);color:var(--prune-dark);font-size:.65rem;font-weight:700;letter-spacing:.1em;padding:8px 18px;border-radius:30px;box-shadow:0 6px 20px rgba(184,134,11,.25)}
+.gardienne-quote{font-family:var(--font-display);font-style:italic;font-size:clamp(.9rem,1.5vw,1rem);color:var(--text-muted);line-height:1.85;border-left:3px solid;border-image:var(--or-gradient) 1;padding-left:20px;margin:22px 0}
+.cv-toggle{display:inline-flex;align-items:center;gap:7px;font-size:.78rem;font-weight:600;color:var(--or-text);cursor:pointer;margin-top:10px;transition:gap .3s}
+.cv-toggle:hover{gap:11px}
+.cv-toggle svg{width:14px;height:14px;fill:var(--or-text);transition:transform .3s}
+.cv-toggle.open svg{transform:rotate(180deg)}
+.cv-body{max-height:0;overflow:hidden;transition:max-height .5s var(--ease-out)}
+.cv-body.open{max-height:300px}
+.cv-body-inner{padding-top:14px;font-size:.85rem;color:var(--text-muted);line-height:1.85}
+.signature{margin-top:22px;opacity:.55}
+.signature svg{width:130px}
+.sig-path{stroke-dasharray:320;stroke-dashoffset:320;animation:drawSig 2.5s ease forwards;animation-play-state:paused}
+.signature.animate .sig-path{animation-play-state:running}
+@keyframes drawSig{to{stroke-dashoffset:0}}
+/* DEPART */
+.depart{padding:var(--section-py) 0;background:var(--prune-gradient);text-align:center;position:relative;overflow:hidden}
+.depart::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--or-warm),transparent);opacity:.15}
+.depart .s-label{color:var(--or-warm);justify-content:center}
+.depart .s-label::before{background:var(--or-warm)}
+.depart .s-title{color:var(--creme-bg)}
+.depart .s-title i{color:var(--or-warm)}
+.depart-ico{width:60px;height:60px;margin:0 auto 20px;background:rgba(184,134,11,.06);border-radius:50%;display:flex;align-items:center;justify-content:center;border:1px solid rgba(184,134,11,.12)}
+.depart-ico svg{width:26px;height:26px;stroke:var(--or-warm);fill:none;stroke-width:1.5}
+.mv-rail{position:relative;width:100%;max-width:500px;margin:0 auto 24px;height:45px}
+.mv-rail-line{position:absolute;bottom:10px;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent 0%,#D4AF37 10%,#D4AF37 90%,transparent 100%);opacity:.5}
+.mv-rail::before{content:'';position:absolute;bottom:6px;left:10%;right:10%;height:2px;background:repeating-linear-gradient(90deg,transparent,transparent 20px,rgba(212,175,55,.3) 20px,rgba(212,175,55,.3) 24px)}
+.mv-train{position:absolute;bottom:0;left:-120px;animation:trainMove 10s linear infinite}
+.mv-train svg{width:100px;height:48px;filter:drop-shadow(0 4px 12px rgba(212,175,55,.4))}
+@keyframes trainMove{0%{left:-120px}100%{left:calc(100% + 120px)}}
+.mv-train::after{content:'';position:absolute;top:-8px;left:28px;width:12px;height:12px;background:radial-gradient(circle,rgba(212,175,55,.4) 0%,transparent 70%);border-radius:50%;animation:trainSmoke .8s ease-out infinite}
+@keyframes trainSmoke{0%{opacity:.6;transform:translateY(0) scale(1)}100%{opacity:0;transform:translateY(-15px) scale(1.8)}}
+@media(max-width:480px){.mv-rail{height:36px;margin-bottom:20px}.mv-rail-line{bottom:8px}.mv-rail::before{bottom:5px}.mv-train{left:-85px;animation:trainMoveMobile 10s linear infinite}.mv-train svg{width:70px;height:34px}.mv-train::after{top:-6px;left:20px;width:10px;height:10px}@keyframes trainMoveMobile{0%{left:-85px}100%{left:calc(100% + 85px)}}}
+.depart-sub{font-family:var(--font-accent);font-size:.9rem;color:rgba(255,250,248,.45);margin:6px 0 30px}
+.countdown{display:flex;justify-content:center;gap:clamp(14px,3vw,26px);margin-bottom:34px}
+.cd-item{text-align:center;min-width:68px}
+.cd-num{display:block;font-family:var(--font-display);font-size:clamp(2rem,5vw,3rem);font-weight:700;color:var(--or-warm);line-height:1}
+.cd-unit{font-size:.6rem;font-weight:500;color:rgba(255,250,248,.35);text-transform:uppercase;letter-spacing:.12em;margin-top:6px}
+.depart-price{font-size:.8rem;color:var(--or-warm);opacity:.6;margin-top:18px}
+.mv-modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;width:100vw;height:100vh;background:rgba(49,21,17,.7);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);z-index:99998;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s}
+.mv-modal-overlay.active{opacity:1;visibility:visible}
+.mv-modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.9);background:#fff;border-radius:24px;padding:32px 24px;width:90vw;max-width:400px;max-height:85vh;overflow-y:auto;z-index:99999;text-align:center;box-shadow:0 25px 80px rgba(0,0,0,.4);opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s,transform .3s}
+.mv-modal.active{opacity:1;visibility:visible;transform:translate(-50%,-50%) scale(1)}
+.mv-modal-close{position:absolute;top:12px;right:12px;width:38px;height:38px;background:linear-gradient(135deg,#D4AF37,#E5C76B);border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10;box-shadow:0 4px 12px rgba(212,175,55,.3);transition:transform .3s,box-shadow .3s}
+.mv-modal-close:hover{transform:scale(1.1);box-shadow:0 6px 16px rgba(212,175,55,.4)}
+.mv-modal-close svg{width:14px;height:14px;stroke:#fff;stroke-width:2.5;pointer-events:none}
+.mv-modal-icon{width:60px;height:60px;margin:0 auto 16px}
+.mv-modal-icon svg{width:100%;height:100%}
+.mv-modal h3{font-family:var(--font-display);font-size:1.25rem;color:#311511;margin:0 0 12px;line-height:1.4}
+.mv-modal p{font-family:var(--font-accent);font-size:.82rem;color:#6B5A4A;line-height:1.7;margin:0 0 24px}
+.mv-modal-btn{display:inline-block;background:var(--or-gradient);background-size:200% 200%;color:#311511!important;padding:16px 36px;border-radius:100px;text-decoration:none!important;font-family:var(--font-body);font-size:.75rem;font-weight:700;letter-spacing:.06em;box-shadow:0 8px 25px rgba(212,175,55,.4);transition:transform .3s,box-shadow .3s;text-transform:uppercase}
+.mv-modal-btn:hover{transform:translateY(-2px) scale(1.03);box-shadow:0 12px 30px rgba(212,175,55,.5)}
+#mv-confetti-canvas{position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:100000}
+body.mv-modal-open{overflow:hidden}
+@media(max-width:768px){.mv-modal{width:92vw;max-width:none;max-height:80vh;padding:28px 20px;border-radius:20px}.mv-modal-close{top:10px;right:10px;width:40px;height:40px}.mv-modal-icon{width:50px;height:50px;margin-bottom:12px}.mv-modal h3{font-size:1.1rem}.mv-modal p{font-size:.75rem}.mv-modal-btn{padding:14px 28px;font-size:.65rem;display:block;width:100%}}
+/* CALENDRIER */
+.calendrier{padding:var(--section-py) 0;background:var(--creme-bg)}
+.calendrier .container{text-align:center}
+.tabs{display:inline-flex;background:var(--creme-deep);border-radius:50px;padding:4px;margin:32px 0 40px}
+.tab-btn{font-size:.8rem;font-weight:600;padding:10px 24px;border-radius:46px;color:var(--text-muted);letter-spacing:.02em;transition:all .35s var(--ease-out)}
+.tab-btn.active{background:var(--blanc);color:var(--prune-dark);box-shadow:var(--shadow-soft)}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+.cal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;text-align:left}
+.cal-card{background:var(--blanc);border:1px solid rgba(59,35,24,.04);border-radius:var(--radius-sm);padding:clamp(22px,3vw,30px);transition:transform .4s var(--ease-out),box-shadow .4s}
+.cal-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-medium)}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.cal-head h3{font-family:var(--font-display);font-size:.95rem;font-weight:700;flex:1;margin-right:8px}
+.cal-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.cal-dot.open{background:var(--green-soft);box-shadow:0 0 8px rgba(139,168,123,.4)}
+.cal-dot.closed{background:var(--red-soft);opacity:.45}
+.cal-dot.demand{background:var(--or-warm)}
+.cal-dot.waitlist{background:var(--or-warm);animation:pDot 2s infinite}
+@keyframes pDot{0%,100%{opacity:1}50%{opacity:.3}}
+.cal-meta{font-size:.72rem;color:var(--text-muted);display:flex;align-items:center;gap:6px;margin-bottom:12px}
+.cal-meta svg{width:12px;height:12px;stroke:var(--or-text);fill:none;stroke-width:2}
+.cal-price{font-family:var(--font-display);font-size:1.2rem;font-weight:700;color:var(--or-text)}
+.cal-price small{font-family:var(--font-body);font-size:.65rem;color:var(--text-muted);font-weight:400}
+/* GALERIE */
+.galerie{padding:50px 0 var(--section-py);background:var(--creme-warm);overflow:hidden}
+.galerie .container{text-align:center}
+.galerie-scroll{display:flex;gap:18px;overflow-x:auto;padding:28px 24px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;justify-content:center}
+.galerie-scroll::-webkit-scrollbar{display:none}
+.gal-frame{flex:0 0 auto;width:clamp(180px,26vw,250px);height:clamp(220px,32vw,310px);border-radius:var(--radius-sm);overflow:hidden;border:2px solid transparent;background-clip:padding-box;position:relative;box-shadow:var(--shadow-gold);scroll-snap-align:start;transform:rotate(-1.5deg);transition:transform .5s var(--ease-out)}
+.gal-frame::before{content:'';position:absolute;inset:-2px;border-radius:var(--radius-sm);background:var(--or-gradient);z-index:-1}
+.gal-frame:nth-child(even){transform:rotate(1.8deg)}
+.gal-frame:hover{transform:rotate(0deg) scale(1.03)}
+.gal-frame img{width:100%;height:100%;object-fit:cover}
+/* VILLAGE */
+.village{padding:var(--section-py) 0;background:var(--blanc)}
+.village .container{text-align:center}
+.village-count{font-size:.75rem;font-weight:600;color:var(--or-text);letter-spacing:.06em;margin-bottom:36px}
+.village-quote{font-family:var(--font-display);font-style:italic;font-size:clamp(.95rem,1.8vw,1.1rem);color:var(--text-muted);max-width:480px;margin:0 auto 40px;line-height:1.75;position:relative;padding:0 24px}
+.village-quote::before,.village-quote::after{font-family:var(--font-display);font-size:2.8rem;color:var(--or-warm);opacity:.2;position:absolute;line-height:1}
+.village-quote::before{content:'\201C';top:-8px;left:-4px}
+.village-quote::after{content:'\201D';bottom:-18px;right:-4px}
+.village-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;max-width:960px;margin:0 auto;text-align:left}
+.wa-msg{background:var(--creme-bg);border-radius:var(--radius-sm) var(--radius-sm) var(--radius-sm) 4px;padding:16px 18px;box-shadow:var(--shadow-soft);transition:transform .3s var(--ease-out)}
+.wa-msg:hover{transform:translateY(-3px)}
+.wa-msg-img{width:100%;height:120px;border-radius:var(--radius-xs);overflow:hidden;margin-bottom:10px;background:var(--creme-deep)}
+.wa-msg-img img{width:100%;height:100%;object-fit:cover}
+.wa-msg p{font-size:.82rem;color:var(--text-main);line-height:1.65}
+.wa-msg-time{font-size:.62rem;color:var(--text-soft);text-align:right;margin-top:6px}
+/* FOOTER */
+.footer{padding:var(--section-py) 0 36px;background:var(--prune-dark);color:rgba(255,250,248,.45)}
+.mentorat{max-width:560px;margin:0 auto 56px;text-align:center;padding:clamp(30px,5vw,50px);background:linear-gradient(135deg,rgba(184,134,11,.05),rgba(74,53,85,.3));border:1px solid rgba(184,134,11,.1);border-radius:var(--radius)}
+.mentorat .s-label{color:var(--or-warm);justify-content:center}
+.mentorat .s-label::before{background:var(--or-warm)}
+.mentorat h3{font-family:var(--font-display);font-size:1.3rem;color:var(--creme-bg);margin:10px 0}
+.mentorat p{font-size:.82rem;color:rgba(255,250,248,.45);margin-bottom:18px}
+.mentorat-excl{font-size:.68rem;color:var(--or-warm);letter-spacing:.07em;font-weight:600;margin-top:16px}
+.livre-dor{max-width:460px;margin:0 auto 56px;text-align:center}
+.livre-dor h3{font-family:var(--font-display);font-size:1.15rem;color:var(--creme-bg);margin-bottom:5px}
+.livre-dor>p{font-size:.78rem;color:rgba(255,250,248,.35);margin-bottom:20px}
+.ldor-form{display:flex;flex-direction:column;gap:11px}
+.ldor-form input,.ldor-form textarea{width:100%;padding:13px 18px;background:rgba(255,250,248,.04);border:1px solid rgba(184,134,11,.1);border-radius:var(--radius-xs);color:var(--creme-bg);font-family:var(--font-body);font-size:.84rem;outline:none;transition:border-color .3s;resize:vertical}
+.ldor-form input:focus,.ldor-form textarea:focus{border-color:rgba(184,134,11,.35)}
+.ldor-form input::placeholder,.ldor-form textarea::placeholder{color:rgba(255,250,248,.2)}
+.ldor-form .btn-or{align-self:center;margin-top:6px}
+.foot-bottom{display:flex;align-items:center;justify-content:space-between;padding-top:36px;border-top:1px solid rgba(184,134,11,.06);flex-wrap:wrap;gap:14px}
+.foot-logo{font-family:var(--font-display);font-size:.95rem;color:var(--or-warm)}
+.foot-logo span{color:rgba(255,250,248,.35);font-weight:400}
+.foot-links{display:flex;gap:18px}
+.foot-links a{font-size:.72rem;color:rgba(255,250,248,.3);transition:color .3s}
+.foot-links a:hover{color:var(--or-warm)}
+.foot-copy{font-size:.65rem;color:rgba(255,250,248,.15);width:100%;text-align:center;margin-top:14px}
+/* ═══════════════════════════════════════════════════
+   COMPOSANT 1 — CURRICULUM ACCORDION (Style MasterClass)
+   ═══════════════════════════════════════════════════ */
+.curriculum{padding:var(--section-py) 0;background:var(--prune-dark);position:relative;overflow:hidden}
+.curriculum::before{content:'';position:absolute;width:800px;height:800px;border-radius:50%;background:radial-gradient(circle,rgba(184,134,11,.04),transparent 60%);bottom:-300px;left:-200px;pointer-events:none}
+.curriculum .container{position:relative;z-index:2}
+.curriculum .s-label{color:var(--or-warm);justify-content:center}
+.curriculum .s-label::before{background:var(--or-warm)}
+.curriculum .s-title{color:var(--creme-bg);text-align:center}
+.curriculum .s-title i{color:var(--or-warm)}
+.curriculum-sub{text-align:center;font-family:var(--font-accent);font-size:.88rem;color:rgba(255,250,248,.35);margin:8px 0 14px}
+.curr-guide{display:flex;align-items:center;justify-content:center;gap:12px;padding:16px 28px;margin:0 auto 48px;background:rgba(184,134,11,.06);border:1px solid rgba(184,134,11,.12);border-radius:var(--radius-sm);max-width:420px;transition:border-color .35s,background .35s}
+.curr-guide:hover{background:rgba(184,134,11,.1);border-color:rgba(184,134,11,.25)}
+.curr-guide-ico{width:42px;height:42px;min-width:42px;border-radius:12px;background:rgba(184,134,11,.1);display:flex;align-items:center;justify-content:center}
+.curr-guide-ico svg{width:20px;height:20px;fill:var(--or-warm)}
+.curr-guide-text{text-align:left}
+.curr-guide-text strong{display:block;font-size:.82rem;color:var(--creme-bg);font-weight:600}
+.curr-guide-text span{font-size:.7rem;color:rgba(255,250,248,.35)}
+.curr-list{max-width:700px;margin:0 auto}
+.curr-item{border-bottom:1px solid rgba(184,134,11,.08)}
+.curr-item:first-child{border-top:1px solid rgba(184,134,11,.08)}
+.curr-head{display:flex;align-items:center;gap:16px;padding:22px 0;cursor:pointer;transition:padding .35s}
+.curr-item.open .curr-head{padding-bottom:10px}
+.curr-num{font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:rgba(184,134,11,.25);min-width:32px;transition:color .4s}
+.curr-item:hover .curr-num,.curr-item.open .curr-num{color:var(--or-warm)}
+.curr-name{flex:1;font-family:var(--font-display);font-size:.95rem;font-weight:600;color:rgba(255,250,248,.5);transition:color .4s}
+.curr-item:hover .curr-name,.curr-item.open .curr-name{color:var(--creme-bg)}
+.curr-dur{font-size:.72rem;color:rgba(255,250,248,.25);font-weight:500;letter-spacing:.04em;display:flex;align-items:center;gap:5px}
+.curr-dur svg{width:12px;height:12px;stroke:rgba(255,250,248,.25);fill:none;stroke-width:2}
+.curr-chevron{width:20px;height:20px;min-width:20px;transition:transform .4s var(--ease-out)}
+.curr-chevron svg{width:20px;height:20px;stroke:rgba(255,250,248,.2);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.curr-item.open .curr-chevron{transform:rotate(180deg)}
+.curr-item.open .curr-chevron svg{stroke:var(--or-warm)}
+.curr-body{max-height:0;overflow:hidden;transition:max-height .55s var(--ease-out)}
+.curr-item.open .curr-body{max-height:200px}
+.curr-body-inner{padding:0 0 22px 48px}
+.curr-body-inner p{font-size:.82rem;color:rgba(255,250,248,.4);line-height:1.75;margin-bottom:10px}
+.curr-topics{display:flex;flex-wrap:wrap;gap:6px}
+.curr-tag{font-size:.66rem;font-weight:500;color:var(--or-warm);background:rgba(184,134,11,.08);padding:4px 12px;border-radius:20px;letter-spacing:.02em}
+/* ═══════════════════════════════════════════════════
+   COMPOSANT 2 — BENTO GRID (Style Linear / Glow)
+   ═══════════════════════════════════════════════════ */
+.bento{padding:var(--section-py) 0;background:var(--prune-dark);position:relative;overflow:hidden}
+.bento::after{content:'';position:absolute;top:-200px;right:-200px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(184,134,11,.03),transparent 65%);pointer-events:none}
+.bento .container{position:relative;z-index:2}
+.bento .s-label{color:var(--or-warm);justify-content:center}
+.bento .s-label::before{background:var(--or-warm)}
+.bento .s-title{color:var(--creme-bg);text-align:center}
+.bento .s-title i{color:var(--or-warm)}
+.bento-sub{text-align:center;font-family:var(--font-accent);font-size:.88rem;color:rgba(255,250,248,.3);margin:8px 0 48px}
+.bento-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:auto;gap:1px;max-width:960px;margin:0 auto;background:rgba(184,134,11,.06);border-radius:var(--radius);overflow:hidden;border:1px solid rgba(184,134,11,.06)}
+@media(max-width:768px){.bento-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.bento-grid{grid-template-columns:1fr}}
+.bento-grid .b-span2{grid-column:span 2}
+@media(max-width:768px){.bento-grid .b-span2{grid-column:span 1}}
+.bento-card{background:var(--prune-dark);padding:clamp(28px,4vw,40px);position:relative;overflow:hidden;cursor:default;transition:background .4s}
+.bento-card::before{content:'';position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(184,134,11,.12),transparent 60%);pointer-events:none;opacity:0;transition:opacity .5s;transform:translate(var(--mouse-x,-50%),var(--mouse-y,-50%))}
+.bento-card:hover::before,.bento-card.scroll-active::before{opacity:1}
+.bento-card:hover,.bento-card.scroll-active{background:rgba(59,35,24,.95)}
+.bento-card-ico{width:44px;height:44px;border-radius:12px;background:rgba(184,134,11,.06);display:flex;align-items:center;justify-content:center;margin-bottom:18px;transition:background .35s}
+.bento-card:hover .bento-card-ico,.bento-card.scroll-active .bento-card-ico{background:rgba(184,134,11,.12)}
+.bento-card-ico svg{width:20px;height:20px;stroke:var(--or-warm);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.bento-card h3{font-family:var(--font-display);font-size:.95rem;font-weight:600;color:rgba(255,250,248,.35);margin-bottom:8px;transition:color .5s}
+.bento-card:hover h3,.bento-card.scroll-active h3{color:var(--creme-bg)}
+.bento-card p{font-size:.78rem;color:rgba(255,250,248,.25);line-height:1.7;transition:color .5s}
+.bento-card:hover p,.bento-card.scroll-active p{color:rgba(255,250,248,.5)}
+/* ═══════════════════════════════════════════════════
+   COMPOSANT 3 — MARQUEE INFINI (Style Family.co)
+   ═══════════════════════════════════════════════════ */
+.marquee-section{padding:var(--section-py) 0 50px;background:var(--prune-dark);overflow:hidden;position:relative}
+.marquee-section .container{position:relative;z-index:2;text-align:center;margin-bottom:42px}
+.marquee-section .s-label{color:var(--or-warm);justify-content:center}
+.marquee-section .s-label::before{background:var(--or-warm)}
+.marquee-section .s-title{color:var(--creme-bg)}
+.marquee-section .s-title i{color:var(--or-warm)}
+.marquee-track{display:flex;width:max-content;animation:marqueeScroll 60s linear infinite}
+.marquee-wrap{overflow:hidden;position:relative}
+.marquee-wrap::before,.marquee-wrap::after{content:'';position:absolute;top:0;bottom:0;width:120px;z-index:3;pointer-events:none}
+.marquee-wrap::before{left:0;background:linear-gradient(90deg,var(--prune-dark),transparent)}
+.marquee-wrap::after{right:0;background:linear-gradient(270deg,var(--prune-dark),transparent)}
+.marquee-wrap:hover .marquee-track{animation-play-state:paused}
+@keyframes marqueeScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.mq-card{flex:0 0 auto;width:320px;margin:0 10px;padding:28px;background:rgba(255,250,248,.03);border:1px solid rgba(184,134,11,.06);border-radius:var(--radius-sm);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);transition:border-color .35s,transform .4s var(--ease-out),background .35s}
+.mq-card:hover{border-color:rgba(184,134,11,.2);transform:translateY(-4px);background:rgba(255,250,248,.05)}
+.mq-stars{display:flex;gap:2px;margin-bottom:14px}
+.mq-stars svg{width:12px;height:12px;fill:var(--or-warm)}
+.mq-card blockquote{font-family:var(--font-display);font-style:italic;font-size:.88rem;color:rgba(255,250,248,.6);line-height:1.75;margin-bottom:16px}
+.mq-author{display:flex;align-items:center;gap:10px}
+.mq-avatar{width:34px;height:34px;border-radius:50%;background:rgba(184,134,11,.1);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:.7rem;font-weight:700;color:var(--or-warm)}
+.mq-author-info{text-align:left}
+.mq-author-info strong{display:block;font-size:.75rem;color:rgba(255,250,248,.55);font-weight:600}
+.mq-author-info span{font-size:.65rem;color:rgba(184,134,11,.4);letter-spacing:.04em}
+.marquee-row2{margin-top:16px}
+.marquee-row2 .marquee-track{animation-direction:reverse}
+/* ═══════════════════════════════════════════════════
+   THRIVE ARCHITECT OVERRIDE — Force all text colors
+   Thrive écrase les couleurs CSS par défaut.
+   Ce bloc force TOUTES les couleurs avec !important.
+   ═══════════════════════════════════════════════════ */
+.boussole .s-label,.depart .s-label,.curriculum .s-label,.bento .s-label,.marquee-section .s-label,.mentorat .s-label{color:var(--or-warm)!important}
+.boussole .s-title,.depart .s-title,.curriculum .s-title,.bento .s-title,.marquee-section .s-title{color:#FFFAF8!important}
+.boussole .s-title i,.depart .s-title i,.curriculum .s-title i,.bento .s-title i,.marquee-section .s-title i{color:#C4A265!important}
+.boussole-oracle{color:rgba(255,250,248,.4)!important}
+.bcard h3{color:#FFFAF8!important}
+.bcard p{color:rgba(255,250,248,.45)!important}
+.reveal-prog{color:#C4A265!important}
+.reveal-price{color:#FFFAF8!important}
+.reveal-link{color:#C4A265!important}
+.boussole-joker button{color:rgba(255,250,248,.35)!important}
+.boussole-joker button:hover{color:#C4A265!important}
+.depart .s-sub,.depart-sub{color:rgba(255,250,248,.45)!important}
+.cd-num{color:#C4A265!important}
+.cd-unit{color:rgba(255,250,248,.35)!important}
+.depart-price{color:#C4A265!important}
+.mentorat h3{color:#FFFAF8!important}
+.mentorat p{color:rgba(255,250,248,.45)!important}
+.mentorat-excl{color:#C4A265!important}
+.livre-dor h3{color:#FFFAF8!important}
+.livre-dor>p{color:rgba(255,250,248,.35)!important}
+.ldor-form input,.ldor-form textarea{color:#FFFAF8!important}
+.ldor-form input::placeholder,.ldor-form textarea::placeholder{color:rgba(255,250,248,.2)!important}
+.foot-logo{color:#C4A265!important}
+.foot-logo span{color:rgba(255,250,248,.35)!important}
+.foot-links a{color:rgba(255,250,248,.3)!important}
+.foot-links a:hover{color:#C4A265!important}
+.foot-copy{color:rgba(255,250,248,.15)!important}
+.footer{color:rgba(255,250,248,.45)!important}
+.curriculum-sub{color:rgba(255,250,248,.35)!important}
+.curr-guide-text strong{color:#FFFAF8!important}
+.curr-guide-text span{color:rgba(255,250,248,.35)!important}
+.curr-num{color:rgba(184,134,11,.25)!important}
+.curr-item:hover .curr-num,.curr-item.open .curr-num{color:#C4A265!important}
+.curr-name{color:rgba(255,250,248,.5)!important}
+.curr-item:hover .curr-name,.curr-item.open .curr-name{color:#FFFAF8!important}
+.curr-dur{color:rgba(255,250,248,.25)!important}
+.curr-body-inner p{color:rgba(255,250,248,.4)!important}
+.curr-tag{color:#C4A265!important}
+.bento-sub{color:rgba(255,250,248,.3)!important}
+.bento-card h3{color:rgba(255,250,248,.35)!important}
+.bento-card:hover h3,.bento-card.scroll-active h3{color:#FFFAF8!important}
+.bento-card p{color:rgba(255,250,248,.25)!important}
+.bento-card:hover p,.bento-card.scroll-active p{color:rgba(255,250,248,.5)!important}
+.mq-card blockquote{color:rgba(255,250,248,.6)!important}
+.mq-author-info strong{color:rgba(255,250,248,.55)!important}
+.mq-author-info span{color:rgba(184,134,11,.4)!important}
+.mq-avatar{color:#C4A265!important}
+.marquee-section .s-title i{color:#C4A265!important}
+.cristal-card blockquote{color:rgba(255,250,248,.65)!important}
+.cristal-author{color:rgba(184,134,11,.5)!important}
+.village-quote::before,.village-quote::after{color:#C4A265!important}
+.nav-links a{color:#7A5C4A!important}
+.nav-links a:hover{color:#311511!important}
+/* AUDIO FAB */
+.audio-fab{position:fixed;bottom:26px;right:26px;z-index:999;width:54px;height:54px;border-radius:50%;background:var(--or-gradient);background-size:200% 200%;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(184,134,11,.3);cursor:pointer;transition:transform .35s var(--ease-spring),box-shadow .3s;animation:fabP 3.5s ease-in-out infinite}
+.audio-fab:hover{transform:scale(1.1);box-shadow:0 8px 32px rgba(184,134,11,.4)}
+.audio-fab svg{width:20px;height:20px;fill:var(--prune-dark)}
+.audio-fab .ico-pause{display:none}
+.audio-fab.playing .ico-play{display:none}
+.audio-fab.playing .ico-pause{display:block}
+.fab-tip{position:absolute;right:64px;top:50%;transform:translateY(-50%);background:var(--prune-dark);color:var(--creme-bg);font-size:.68rem;font-weight:500;padding:6px 14px;border-radius:8px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .3s}
+.audio-fab:hover .fab-tip{opacity:1}
+@keyframes fabP{0%,100%{box-shadow:0 6px 24px rgba(184,134,11,.3)}50%{box-shadow:0 6px 32px rgba(184,134,11,.5),0 0 60px rgba(184,134,11,.1)}}
+@media(max-width:480px){.audio-fab{width:46px;height:46px;bottom:18px;right:18px}}
+/* ════════ WALL OF LOVE (ANIMATED) ════════ */
+.wall-section { padding: var(--section-py) 0; background: var(--blanc); overflow: hidden; }
+.wall-layout { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 6vw, 80px); align-items: center; }
+@media (max-width: 900px) { .wall-layout { grid-template-columns: 1fr; text-align: center; } }
+.wall-text { position: relative; z-index: 2; }
+.wall-text .s-title { margin-bottom: 24px; }
+.wall-counter { font-size: 1rem; font-weight: 600; color: var(--or-text); margin-bottom: 20px; }
+.wall-text .wall-desc { font-family: var(--font-accent); font-size: 1.05rem; color: var(--text-muted); line-height: 1.8; }
+/* Visuel Droite (Scroll Infini - 1 colonne) */
+.wall-visual { height: 600px; overflow: hidden; position: relative; mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent); }
+.wall-col { display: flex; flex-direction: column; gap: 20px; animation: scrollUp 50s linear infinite; }
+@keyframes scrollUp { 0% { transform: translateY(0); } 100% { transform: translateY(-50%); } }
+.wall-card { background: url('https://mamanetvertus.com/wp-content/uploads/2026/02/Zazao_httpss-3-scaled.jpg') center/cover no-repeat; padding: 20px; border-radius: var(--radius-sm); box-shadow: 0 4px 20px rgba(184,134,11,0.25), 0 2px 8px rgba(184,134,11,0.15); border: 1px solid rgba(184,134,11,0.2); }
+.wall-card img { width: 100%; border-radius: 8px; margin-bottom: 12px; display: block; object-fit: cover; max-height: 160px; }
+.wall-card p { font-size: 0.92rem; color: #3B2318 !important; line-height: 1.65; background: rgba(255,255,255,0.85); padding: 8px 12px; border-radius: 6px; display: inline; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.wall-card .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 12px; }
+.wall-card .author { font-size: 0.7rem; font-weight: 600; color: #B8860B !important; background: rgba(255,255,255,0.85); padding: 4px 8px; border-radius: 4px; }
+.wall-card .time { font-size: 0.7rem; color: #3B2318 !important; background: rgba(255,255,255,0.85); padding: 4px 8px; border-radius: 4px; }
+/* ═══ ATELIERS - 4 Stacks Swipables par Thème ═══ */
+.ateliers-section { padding: var(--section-py) 0; background: var(--blanc); }
+.ateliers-header { text-align: center; margin-bottom: clamp(40px, 6vw, 60px); }
+.ateliers-list { display: none; }
+.swipe-instruction { font-family: var(--font-body); font-size: 0.85rem; color: var(--prune-dark); margin-top: 12px; font-weight: 400; letter-spacing: 0.02em; }
+/* ═══ STACKS GRID - 4 Colonnes ═══ */
+.stacks-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 50px; max-width: 1200px; margin: 0 auto; }
+.stack-column { display: flex; flex-direction: column; align-items: center; }
+.stack-theme { font-family: var(--font-body); font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--or-text); text-align: center; margin-bottom: 16px; display: flex; align-items: center; justify-content: center; gap: 8px; white-space: nowrap; }
+.stack-theme::before, .stack-theme::after { content: ''; width: 16px; height: 1.5px; background: var(--or-gradient); border-radius: 2px; }
+.stack-container { position: relative; width: 100%; max-width: 240px; height: 440px; perspective: 1000px; }
+.stack-card { position: absolute; width: 100%; height: 400px; border-radius: 12px; overflow: visible; background: var(--blanc); box-shadow: 0 8px 30px -8px rgba(49,21,17,0.12); transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.4s ease; cursor: grab; will-change: transform; user-select: none; }
+.stack-card:active { cursor: grabbing; }
+.stack-card.dragging { transition: none; }
+.stack-card-img { width: 100%; height: 130px; object-fit: cover; border-radius: 12px 12px 0 0; }
+.stack-card-body { padding: 10px 12px 12px; background: var(--blanc); border-radius: 0 0 12px 12px; }
+.stack-card-titre { font-family: 'Josefin Sans', sans-serif !important; font-size: 1rem !important; font-weight: 500 !important; color: var(--prune-dark) !important; line-height: 1.2 !important; margin-bottom: 8px !important; text-transform: none !important; letter-spacing: 0 !important; }
+.stack-card-desc { font-family: var(--font-body); font-size: 0.7rem; color: var(--text-muted); line-height: 1.35; margin-bottom: 10px; }
+.stack-card-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.stack-card-tag { font-family: var(--font-body); font-size: 0.5rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--blanc); background: var(--prune-dark); padding: 3px 6px; border-radius: 3px; }
+.stack-card-age { font-family: var(--font-accent); font-size: 0.65rem; color: var(--text-soft); font-style: italic; }
+/* Stack effect - cards behind */
+.stack-card[data-pos="0"] { z-index: 5; transform: translateY(0) scale(1); opacity: 1; }
+.stack-card[data-pos="1"] { z-index: 4; transform: translateY(10px) scale(0.96); opacity: 0.5; pointer-events: none; }
+.stack-card[data-pos="2"] { z-index: 3; transform: translateY(20px) scale(0.92); opacity: 0.25; pointer-events: none; }
+.stack-card[data-pos="3"] { z-index: 2; transform: translateY(30px) scale(0.88); opacity: 0; pointer-events: none; }
+/* Swipe indicators */
+.stack-indicator { position: absolute; top: 35%; width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; font-weight: 700; opacity: 0; transition: opacity 0.2s ease; pointer-events: none; z-index: 10; }
+.stack-indicator.like { right: 10px; background: rgba(139,168,123,0.95); color: #fff; }
+.stack-indicator.nope { left: 10px; background: rgba(192,117,107,0.95); color: #fff; }
+.stack-card.swiping-right .stack-indicator.like { opacity: 1; }
+.stack-card.swiping-left .stack-indicator.nope { opacity: 1; }
+/* Stack dots */
+.stack-dots { display: flex; justify-content: center; gap: 6px; margin-top: 14px; }
+.stack-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(49,21,17,0.15); transition: all 0.3s ease; cursor: pointer; }
+.stack-dot:hover { background: rgba(49,21,17,0.3); }
+.stack-dot.active { background: var(--or-text); transform: scale(1.2); }
+/* Responsive */
+@media (max-width: 1050px) { .stacks-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 30px; max-width: 560px; } .stack-container { max-width: 250px; height: 410px; } .stack-card { height: 370px; } }
+@media (max-width: 580px) { .stacks-grid { grid-template-columns: 1fr; gap: 50px; max-width: 280px; } .stack-container { max-width: 280px; height: 430px; margin: 0 auto; } .stack-card { height: 390px; } .stack-card-img { height: 160px; } .stack-card-body { height: 230px; padding: 16px 18px; } .stack-card-titre { font-size: 1.15rem; } .stack-card-desc { font-size: 0.85rem; } }
+/* Hide old elements */
+.swipe-container, .swipe-dots, .swipe-actions, .swipe-hint, .atelier-visual, .cursor-voir, .flashcards-grid { display: none !important; }
+.section-sep { width: 100%; height: 80px !important; background: url('https://mamanetvertus.com/wp-content/uploads/2026/02/tzangms_Abstract_tribal_pattern_inspired_by_African_textiles_ha_36a53980-0579-4f0b-980c-f7af9331c005-scaled-e1770389283761.png') repeat-x center/auto 500%; overflow: hidden; }
+.section-sep img { display: none; }
+@media (max-width: 900px) { .wall-visual { height: 450px; margin-top: 30px; } }
+</style>
+</head>
+<body>
+
+<nav class="nav" id="mainNav"><div class="nav-inner">
+<a href="#" class="nav-logo" draggable="false">Maman <span>&amp;</span> Vertus</a>
+<div class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></div>
+<ul class="nav-links" id="navLinks">
+<li><a href="#methode" draggable="false">Methode</a></li>
+<li><a href="#programmes" draggable="false">Programmes</a></li>
+<li><a href="#ummadam" draggable="false">Umm Adam</a></li>
+<li><a href="#communaute" draggable="false">Communaute</a></li>
+<li><a href="#depart" class="nav-cta" draggable="false">Rejoindre</a></li>
+</ul>
+</div></nav>
+
+<section class="hero">
+<div class="hero-shape-1"></div><div class="hero-shape-2"></div><div class="hero-dots"></div>
+<div class="container"><div class="hero-layout">
+<div class="hero-text">
+<div class="trust-badge"><div class="trust-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><span class="trust-label">4.9/5 — 119 avis</span></div>
+<h1 class="hero-h1">DU MIEL<br><i>POUR LE COEUR</i><br>DE TON ENFANT</h1>
+<p class="hero-desc">Un accompagnement en direct pour les mamans musulmanes. Eduquer selon le Coran et la Sunnah, avec amour et sagesse.</p>
+<div class="loyalty"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>67% reprennent plus d'un programme</div>
+<div class="hero-actions">
+<a href="#depart" class="btn-or" draggable="false">Decouvrir les programmes <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg></a>
+<a href="#ummadam" class="btn-ghost" draggable="false">Qui suis-je ?</a>
+</div>
+<div class="hero-stats">
+<div class="stat"><div class="stat-num"><span data-count="2182">0</span><small>+</small></div><div class="stat-lbl">Mamans formees</div></div>
+<div class="stat"><div class="stat-num"><span data-count="6">0</span> <small>ans</small></div><div class="stat-lbl">D'expertise</div></div>
+<div class="stat"><div class="stat-num"><span data-count="10">0</span></div><div class="stat-lbl">Programmes</div></div>
+</div>
+</div>
+<div class="hero-visual">
+<div class="hero-house"><!-- Image Hero --><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/maman-et-vertus-copyright.jpg" alt="Maman et Vertus — Education Prophetique" draggable="false"></div>
+<div class="hero-float f1"><svg viewBox="0 0 24 24" fill="none" stroke="#B8860B" stroke-width="1.8" stroke-linecap="round"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg>Amour &amp; Adab</div>
+<div class="hero-float f2"><svg viewBox="0 0 24 24" fill="none" stroke="#B8860B" stroke-width="1.8" stroke-linecap="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg>+1500 avis</div>
+<div class="hero-float f3"><svg viewBox="0 0 24 24" fill="none" stroke="#B8860B" stroke-width="1.8" stroke-linecap="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>Certifie Sunnah</div>
+</div>
+</div></div>
+</section>
+
+<div class="ornament"><div class="line"></div><svg viewBox="0 0 24 24"><defs><linearGradient id="goldGradIcon" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#D4AF37"></stop><stop offset="50%" stop-color="#F5D374"></stop><stop offset="100%" stop-color="#C4A265"></stop></linearGradient></defs><path fill="url(#goldGradIcon)" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"></path></svg><div class="line"></div></div>
+
+<section class="constat reveal"><div class="container">
+<div class="constat-head"><div class="s-label">Le Constat</div><h2 class="s-title"><span class="hl">Arretez de <i>bricoler</i> l'education de vos enfants</span></h2><div class="constat-quote"><span class="hl">Les jouets educatifs cassent, les box finissent au placard. L'Adab que vous ancrez en eux est la seule chose qui restera.</span></div></div>
+<div class="constat-grid">
+<div class="ccard ccard--bad reveal reveal-d1"><div class="ccard-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#C0756B" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div><h3>Le Patchwork Mental</h3><p>Un livre de psychologie + un rappel Instagram + le conseil de la belle-mere = confusion totale et culpabilite permanente.</p></div>
+<div class="ccard ccard--good reveal reveal-d2"><div class="ccard-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#B8860B" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><h3>La Methode Maman &amp; Vertus</h3><p>Un systeme complet alliant authenticite des sources islamiques et methodes pratiques applicables au quotidien.</p></div>
+</div>
+</div></section>
+
+<section class="arbre reveal" id="methode"><div class="container">
+<div class="arbre-header"><div class="s-label" style="justify-content:center">La Methode</div>
+<h2 class="s-title">L'Arbre de <i>l'Amana</i></h2>
+<p class="s-sub" style="margin:14px auto 0;text-align:center">Chaque programme forme un niveau de l'arbre. Ensemble, ils construisent un ecosysteme educatif complet.</p></div>
+<div class="arbre-layout">
+<div class="arbre-visual"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/arbre-des-mamans-copyright-mv.png" alt="L'Arbre de l'Amana — Maman et Vertus" draggable="false"></div>
+<div class="arbre-content"><div class="arbre-wrap"><div class="arbre-trunk"></div>
+<div class="arbre-lvl reveal"><div class="arbre-node"><svg viewBox="0 0 24 24"><path d="M12 22c4.97 0 9-2.69 9-6v-2c0-3.31-4.03-6-9-6s-9 2.69-9 6v2c0 3.31 4.03 6 9 6zm0-12c2.76 0 5-.9 5-2s-2.24-2-5-2-5 .9-5 2 2.24 2 5 2z"></path></svg></div><div class="arbre-info"><h4>Les Racines</h4><p>Le Coeur de la Mere — Du Burnout au Bonheur</p></div></div>
+<div class="arbre-lvl reveal"><div class="arbre-node"><svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"></path></svg></div><div class="arbre-info"><h4>Le Tronc</h4><p>Le Cadre &amp; L'Autorite — Stop Cris &amp; Crises</p></div></div>
+<div class="arbre-lvl reveal"><div class="arbre-node"><svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"></path></svg></div><div class="arbre-info"><h4>Les Branches</h4><p>La Relation — Freres &amp; Soeurs, L'Enfant Difficile</p></div></div>
+<div class="arbre-lvl reveal"><div class="arbre-node"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg></div><div class="arbre-info"><h4>Les Fruits</h4><p>Le Resultat — L'Enfant Vertueux, Ado Reussie</p></div></div>
+<div class="arbre-lvl reveal"><div class="arbre-node"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><div class="arbre-info"><h4>La Cime</h4><p>La Transmission — Intervenante Corporelle Pro</p></div></div>
+</div></div></div></div></section>
+
+<!-- ═══ COMPOSANT 2 : BENTO GRID (Style Linear) ═══ -->
+<section class="bento reveal"><div class="container">
+<div class="s-label">Les 12 Piliers</div>
+<h2 class="s-title">Ce que tes enfants <i>gagneront</i></h2>
+<p class="bento-sub">Un ecosysteme complet ancre dans le Coran et la Sunnah</p>
+</div>
+<div class="container"><div class="bento-grid" id="bentoGrid">
+<div class="bento-card b-span2"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg></div><h3>Amour Prophetique</h3><p>Apprendre a aimer comme le Prophete ﷺ aimait les enfants. Une affection qui construit et qui guide, pas qui etouffe.</p></div>
+<div class="bento-card"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"></path></svg></div><h3>Autorite Juste</h3><p>Poser un cadre ferme et bienveillant sans crier.</p></div>
+<div class="bento-card"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"></path></svg></div><h3>Communication</h3><p>Parler pour etre entendue, ecouter pour comprendre.</p></div>
+<div class="bento-card"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"></path></svg></div><h3>Rituels Islamiques</h3><p>Ancrer la salat, le dhikr, la lecture du Coran des le plus jeune age.</p></div>
+<div class="bento-card"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5z"></path></svg></div><h3>Fratrie Unie</h3><p>Transformer la rivalite en complicite entre freres et soeurs.</p></div>
+<div class="bento-card b-span2"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path></svg></div><h3>Protection Corporelle</h3><p>Enseigner la pudeur, les limites du corps et la protection selon l'Islam. Un sujet tabou devenu une force.</p></div>
+<div class="bento-card"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0020 4H5.21l-.94-2H1z"></path></svg></div><h3>Gestion des Crises</h3><p>Reagir avec sagesse face aux coleres et aux tempetes emotionnelles.</p></div>
+<div class="bento-card"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"></path></svg></div><h3>Bien-etre Maternel</h3><p>Prendre soin de toi pour mieux prendre soin d'eux.</p></div>
+<div class="bento-card"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"></path></svg></div><h3>Adolescence Reussie</h3><p>Accompagner la transition sans perdre le lien ni la confiance.</p></div>
+<div class="bento-card b-span2"><div class="bento-card-ico"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><h3>Tarbiya Integrale</h3><p>Ni methode occidentale islamisee, ni theorie pure. Un systeme complet qui forme des enfants vertueux, equilibres et epanouis, bi idhni Llah.</p></div>
+</div></div></section>
+
+<!-- Workshops Section - Rejouice Style -->
+<!-- ═══ SECTION ATELIERS - Premium Interactive ═══ -->
+<section class="ateliers-section reveal" id="ateliers">
+<div class="container">
+  <div class="ateliers-header">
+    <div class="s-label">Cycles d'Accompagnement</div>
+    <h2 class="s-title">Nos 8 <i>Masterclass</i></h2>
+    <p class="swipe-instruction">Swipe et clique pour découvrir</p>
+  </div>
+  
+  <!-- 4 Stacks Swipables par Thème -->
+  <div class="stacks-grid">
+    
+    <!-- STACK 1: Je suis épuisée -->
+    <div class="stack-column">
+      <div class="stack-theme">Je suis épuisée</div>
+      <div class="stack-container" data-stack="0">
+        <div class="stack-card" data-pos="0">
+          <img class="stack-card-img" src="https://mamanetvertus.com/wp-content/uploads/2024/08/poster-master-class-reforme-des-foyers2_Plan-de-travail-1-e1725125190398.png" alt="Burnout" draggable="false">
+          <div class="stack-card-body">
+            <h3 class="stack-card-titre">Burnout Maternité</h3>
+            <p class="stack-card-desc">Fatigue, cris, culpabilité... Retrouve ta sérénité.</p>
+            <div class="stack-card-meta">
+              <span class="stack-card-tag">Bien-être</span>
+              <span class="stack-card-age">Pour Maman</span>
+            </div>
+          </div>
+          <div class="stack-indicator like">♡</div>
+          <div class="stack-indicator nope">✗</div>
+        </div>
+        <div class="stack-card" data-pos="1">
+          <img class="stack-card-img" src="https://mamanetvertus.com/wp-content/uploads/2024/08/BANNIERE-pratiques-parentales-e1725125101382.png" alt="Pratiques" draggable="false">
+          <div class="stack-card-body">
+            <h3 class="stack-card-titre">Les Pratiques Parentales</h3>
+            <p class="stack-card-desc">Crises, cris, conflits... Retrouve l'harmonie familiale.</p>
+            <div class="stack-card-meta">
+              <span class="stack-card-tag">Fondamentaux</span>
+              <span class="stack-card-age">2 – 10 ans</span>
+            </div>
+          </div>
+          <div class="stack-indicator like">♡</div>
+          <div class="stack-indicator nope">✗</div>
+        </div>
+      </div>
+      <div class="stack-dots"><div class="stack-dot active"></div><div class="stack-dot"></div></div>
+    </div>
+    
+    <!-- STACK 2: Tensions familiales -->
+    <div class="stack-column">
+      <div class="stack-theme">Tensions familiales</div>
+      <div class="stack-container" data-stack="1">
+        <div class="stack-card" data-pos="0">
+          <img class="stack-card-img" src="https://mamanetvertus.com/wp-content/uploads/2024/08/site-banniere-enfant-tetu2-e1725125276596.png" alt="Difficile" draggable="false">
+          <div class="stack-card-body">
+            <h3 class="stack-card-titre">L'Enfant Difficile</h3>
+            <p class="stack-card-desc">Oppositions, crises, refus... Comprends son tempérament.</p>
+            <div class="stack-card-meta">
+              <span class="stack-card-tag">Comportement</span>
+              <span class="stack-card-age">4 – 11 ans</span>
+            </div>
+          </div>
+          <div class="stack-indicator like">♡</div>
+          <div class="stack-indicator nope">✗</div>
+        </div>
+        <div class="stack-card" data-pos="1">
+          <img class="stack-card-img" src="https://mamanetvertus.com/wp-content/uploads/2024/08/BANNIERE-CADEAU.png" alt="Fratrie" draggable="false">
+          <div class="stack-card-body">
+            <h3 class="stack-card-titre">Frères &amp; Sœurs</h3>
+            <p class="stack-card-desc">Rivalités, jalousies... Transforme-les en complicité.</p>
+            <div class="stack-card-meta">
+              <span class="stack-card-tag">Fratrie</span>
+              <span class="stack-card-age">2 – 12 ans</span>
+            </div>
+          </div>
+          <div class="stack-indicator like">♡</div>
+          <div class="stack-indicator nope">✗</div>
+        </div>
+      </div>
+      <div class="stack-dots"><div class="stack-dot active"></div><div class="stack-dot"></div></div>
+    </div>
+    
+    <!-- STACK 3: Transmettre la foi -->
+    <div class="stack-column">
+      <div class="stack-theme">Transmettre la foi</div>
+      <div class="stack-container" data-stack="2">
+        <div class="stack-card" data-pos="0">
+          <img class="stack-card-img" src="https://mamanetvertus.com/wp-content/uploads/2024/08/poster-master-class-enfant-vertueux_Plan-de-travail-1-e1725122696952.png" alt="Vertueux 1" draggable="false">
+          <div class="stack-card-body">
+            <h3 class="stack-card-titre">L'Enfant Vertueux 1</h3>
+            <p class="stack-card-desc">Plante les graines de la foi dès le plus jeune âge.</p>
+            <div class="stack-card-meta">
+              <span class="stack-card-tag">Religion</span>
+              <span class="stack-card-age">3 – 11 ans</span>
+            </div>
+          </div>
+          <div class="stack-indicator like">♡</div>
+          <div class="stack-indicator nope">✗</div>
+        </div>
+        <div class="stack-card" data-pos="1">
+          <img class="stack-card-img" src="https://mamanetvertus.com/wp-content/uploads/2024/08/banniere-niveau-2.jpg" alt="Vertueux 2" draggable="false">
+          <div class="stack-card-body">
+            <h3 class="stack-card-titre">L'Enfant Vertueux 2</h3>
+            <p class="stack-card-desc">Approfondir l'éducation islamique et les valeurs.</p>
+            <div class="stack-card-meta">
+              <span class="stack-card-tag">Religion</span>
+              <span class="stack-card-age">3 – 11 ans</span>
+            </div>
+          </div>
+          <div class="stack-indicator like">♡</div>
+          <div class="stack-indicator nope">✗</div>
+        </div>
+      </div>
+      <div class="stack-dots"><div class="stack-dot active"></div><div class="stack-dot"></div></div>
+    </div>
+    
+    <!-- STACK 4: Ils grandissent -->
+    <div class="stack-column">
+      <div class="stack-theme">Ils grandissent</div>
+      <div class="stack-container" data-stack="3">
+        <div class="stack-card" data-pos="0">
+          <img class="stack-card-img" src="https://mamanetvertus.com/wp-content/uploads/2024/08/banniere-master-class-gratuite-01-1.png" alt="Corporelle" draggable="false">
+          <div class="stack-card-body">
+            <h3 class="stack-card-titre">L'Éducation Corporelle</h3>
+            <p class="stack-card-desc">Pudeur, puberté, intimité... Selon l'Islam.</p>
+            <div class="stack-card-meta">
+              <span class="stack-card-tag">Protection</span>
+              <span class="stack-card-age">0 – 15 ans</span>
+            </div>
+          </div>
+          <div class="stack-indicator like">♡</div>
+          <div class="stack-indicator nope">✗</div>
+        </div>
+        <div class="stack-card" data-pos="1">
+          <img class="stack-card-img" src="https://mamanetvertus.com/wp-content/uploads/2024/08/BANNIERE-ado-e1744083043977.png" alt="Ado" draggable="false">
+          <div class="stack-card-body">
+            <h3 class="stack-card-titre">Adolescence Réussie</h3>
+            <p class="stack-card-desc">Adolescence, puberté, influences... Garde le lien.</p>
+            <div class="stack-card-meta">
+              <span class="stack-card-tag">Adolescence</span>
+              <span class="stack-card-age">10 – 15 ans</span>
+            </div>
+          </div>
+          <div class="stack-indicator like">♡</div>
+          <div class="stack-indicator nope">✗</div>
+        </div>
+      </div>
+      <div class="stack-dots"><div class="stack-dot active"></div><div class="stack-dot"></div></div>
+    </div>
+    
+  </div>
+</div>
+</section>
+
+<!-- ═══ COMPOSANT 3 : MARQUEE INFINI (Style Family.co) ═══ -->
+<section class="marquee-section reveal">
+<div class="container">
+<div class="s-label">Elles Temoignent</div>
+<h2 class="s-title">Les voix de <i>la communaute</i></h2>
+</div>
+<div class="marquee-wrap">
+<div class="marquee-track" id="mqTrack1">
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>Avant, je nageais en eaux troubles... Aujourd'hui j'ai une boussole. Jazak Allah khayran Umm Adam.</blockquote><div class="mq-author"><div class="mq-avatar">OY</div><div class="mq-author-info"><strong>Oum Yusuf</strong><span>Bruxelles — Stop Cris &amp; Crises</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>Mon fils de 5 ans ne faisait que crier. Apres 3 semaines, la paix est revenue. Alhamdulillah.</blockquote><div class="mq-author"><div class="mq-avatar">OI</div><div class="mq-author-info"><strong>Oum Ibrahim</strong><span>Lyon — L'Enfant Difficile</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>J'ai fait 4 formations. Chacune m'a transformee. C'est un changement de vie, pas juste de la theorie.</blockquote><div class="mq-author"><div class="mq-avatar">OK</div><div class="mq-author-info"><strong>Oum Khadija</strong><span>Paris — Burnout au Bonheur</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>Ma fille de 12 ans me parle a nouveau. On a retrouve notre complicite. Baraka Allahu fiki.</blockquote><div class="mq-author"><div class="mq-avatar">OS</div><div class="mq-author-info"><strong>Oum Safiya</strong><span>Toulouse — Ado Vertueux</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>SubhanAllah, la formation Education Corporelle est un tresor. J'ai enfin pu parler de pudeur avec mes enfants sereinement.</blockquote><div class="mq-author"><div class="mq-avatar">OA</div><div class="mq-author-info"><strong>Oum Aisha</strong><span>Montreal — Education Corporelle</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>Mes 3 enfants se disputaient sans arret. Aujourd'hui ils jouent ensemble et s'entraident. In sha Allah que ca dure.</blockquote><div class="mq-author"><div class="mq-avatar">OM</div><div class="mq-author-info"><strong>Oum Maryam</strong><span>Casablanca — Freres &amp; Soeurs</span></div></div></div>
+</div>
+</div>
+<div class="marquee-wrap marquee-row2">
+<div class="marquee-track" id="mqTrack2">
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>La voix d'Umm Adam est apaisante et ses methodes sont concretes. On sent qu'elle vit ce qu'elle enseigne.</blockquote><div class="mq-author"><div class="mq-avatar">ON</div><div class="mq-author-info"><strong>Oum Nour</strong><span>Marseille — L'Enfant Vertueux</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>Je recommande a chaque maman musulmane. C'est un investissement qui change toute la dynamique familiale.</blockquote><div class="mq-author"><div class="mq-avatar">OH</div><div class="mq-author-info"><strong>Oum Hamza</strong><span>Bruxelles — 3 formations</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>La consultation individuelle a regle un probleme que je trainais depuis 2 ans en 1 heure. Magnifique.</blockquote><div class="mq-author"><div class="mq-avatar">OR</div><div class="mq-author-info"><strong>Oum Ruqayya</strong><span>Tanger — Consultation</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>Convertie depuis 8 ans, j'avais besoin d'un cadre islamique solide pour eduquer. Umm Adam l'a construit pour nous.</blockquote><div class="mq-author"><div class="mq-avatar">OL</div><div class="mq-author-info"><strong>Oum Lina</strong><span>Strasbourg — Enfant Vertueux</span></div></div></div>
+<div class="mq-card"><div class="mq-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"></path></svg></div><blockquote>Alhamdulillah, les rivalites entre mes jumeaux ont completement disparu. Ils se font des douas l'un pour l'autre maintenant.</blockquote><div class="mq-author"><div class="mq-avatar">OZ</div><div class="mq-author-info"><strong>Oum Zayd</strong><span>Rabat — Freres &amp; Soeurs</span></div></div></div>
+</div>
+</div>
+</section>
+
+<section class="gardienne reveal" id="ummadam"><div class="container"><div class="gardienne-layout">
+<div class="gardienne-photo-wrap">
+<div class="gardienne-photo-frame"><!-- Photo Umm Adam --><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/72cb44b1ecf0cedea1f3c9616ab92dc7.jpg" alt="Umm Adam — Mentor Parental" draggable="false"></div>
+<div class="gardienne-badge">6 ANS D'EXPERTISE</div>
+</div>
+<div class="gardienne-text">
+<div class="s-label">La Gardienne de l'Amana</div>
+<h2 class="s-title">Je suis <i>Umm Adam</i></h2>
+<p class="s-sub">Mentor Parental &amp; Formatrice Professionnelle</p>
+<div class="gardienne-quote">Plus qu'une formatrice, je me vois comme une compagne de voyage... Mon role est de vous aider a vous ressentir digne du depot sacre qu'Allah vous a confie : l'Amana que sont vos enfants.</div>
+<div class="cv-toggle" id="cvToggle">Le parcours <svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"></path></svg></div>
+<div class="cv-body" id="cvBody"><div class="cv-body-inner">Formation universitaire en histoire et ethnologie. Etudes au Masjid Nabawi a 25 ans. Traductrice a la Mosquee Prophetique. Convertie depuis 26 ans, sur le minhaj depuis l'adolescence. Maman de 3 enfants, vivant au Maroc. Plus de 2182 mamans formees a travers 10 programmes educatifs complets.</div></div>
+<div class="signature" id="signature"><svg viewBox="0 0 200 50" fill="none"><path class="sig-path" d="M8 42 Q28 8 52 26 Q72 44 94 18 Q112 2 132 32 Q142 44 162 22 Q174 12 192 38" stroke="#B8860B" stroke-width="2"></path></svg></div>
+</div>
+</div></div></section>
+
+<section class="depart reveal" id="depart"><div class="container">
+<div class="mv-rail">
+<div class="mv-rail-line"></div>
+<div class="mv-train">
+<svg viewBox="0 0 50 24" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="trainGold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#D4AF37"></stop><stop offset="50%" stop-color="#F5D374"></stop><stop offset="100%" stop-color="#E5C76B"></stop></linearGradient></defs>
+<rect x="8" y="6" width="28" height="12" rx="3" fill="url(#trainGold)"></rect>
+<rect x="36" y="8" width="10" height="10" rx="2" fill="url(#trainGold)"></rect>
+<rect x="12" y="2" width="5" height="6" rx="1" fill="url(#trainGold)"></rect>
+<circle cx="14" cy="0" r="2" fill="#D4AF37" opacity="0.4"></circle>
+<rect x="14" y="9" width="4" height="4" rx="1" fill="#FFFAF8"></rect>
+<rect x="21" y="9" width="4" height="4" rx="1" fill="#FFFAF8"></rect>
+<rect x="28" y="9" width="4" height="4" rx="1" fill="#FFFAF8"></rect>
+<circle cx="14" cy="20" r="3" fill="#FFFAF8" opacity=".3"></circle>
+<circle cx="26" cy="20" r="3" fill="#FFFAF8" opacity=".3"></circle>
+<circle cx="40" cy="20" r="3" fill="#FFFAF8" opacity=".3"></circle>
+<circle cx="14" cy="20" r="1.5" fill="url(#trainGold)"></circle>
+<circle cx="26" cy="20" r="1.5" fill="url(#trainGold)"></circle>
+<circle cx="40" cy="20" r="1.5" fill="url(#trainGold)"></circle>
+<rect x="40" y="10" width="4" height="3" rx="0.5" fill="#FFFAF8"></rect>
+<line x1="4" y1="18" x2="8" y2="18" stroke="#F5D374" stroke-width="2" stroke-linecap="round"></line>
+</svg>
+</div>
+</div>
+<div class="s-label">Prochain Depart</div>
+<h2 class="s-title">Freres &amp; Soeurs,<br><i>c'est la guerre ?</i></h2>
+<p class="depart-sub">Ouverture des inscriptions dans :</p>
+<div class="countdown" id="countdown">
+<div class="cd-item"><span class="cd-num" id="cdD">00</span><div class="cd-unit">Jours</div></div>
+<div class="cd-item"><span class="cd-num" id="cdH">00</span><div class="cd-unit">Heures</div></div>
+<div class="cd-item"><span class="cd-num" id="cdM">00</span><div class="cd-unit">Min</div></div>
+<div class="cd-item"><span class="cd-num" id="cdS">00</span><div class="cd-unit">Sec</div></div>
+</div>
+<button class="btn-or" id="mvOpenModal" type="button" style="border:none;cursor:pointer">Rejoindre l'Antichambre <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg></button>
+<div class="depart-price">Freres &amp; Soeurs — 179€</div>
+</div></section>
+
+<section class="calendrier reveal" id="programmes"><div class="container">
+<div class="s-label" style="justify-content:center">Le Calendrier</div>
+<h2 class="s-title">Les Cycles <i>d'Accompagnement</i></h2>
+<div class="tabs"><button class="tab-btn active" data-tab="foyer">Pour mon Foyer</button><button class="tab-btn" data-tab="carriere">Pour ma Carriere</button></div>
+<div class="tab-panel active" id="tab-foyer"><div class="cal-grid">
+<div class="cal-card"><div class="cal-head"><h3>Freres &amp; Soeurs</h3><div class="cal-dot waitlist"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Avril 2026</div><div class="cal-price">179€</div></div>
+<div class="cal-card"><div class="cal-head"><h3>Stop Cris &amp; Crises</h3><div class="cal-dot closed"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Juin 2026</div><div class="cal-price">199€</div></div>
+<div class="cal-card"><div class="cal-head"><h3>Adolescence Reussie</h3><div class="cal-dot closed"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Septembre 2026</div><div class="cal-price">199€</div></div>
+<div class="cal-card"><div class="cal-head"><h3>L'Enfant Difficile</h3><div class="cal-dot closed"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Decembre 2026</div><div class="cal-price">149€</div></div>
+<div class="cal-card"><div class="cal-head"><h3>L'Enfant Vertueux</h3><div class="cal-dot closed"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Janvier 2027</div><div class="cal-price">199€</div></div>
+<div class="cal-card"><div class="cal-head"><h3>Education Corporelle</h3><div class="cal-dot closed"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Octobre 2026</div><div class="cal-price">279€</div></div>
+<div class="cal-card"><div class="cal-head"><h3>Du Burnout au Bonheur</h3><div class="cal-dot demand"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Sur demande</div><div class="cal-price">129€</div></div>
+<div class="cal-card"><div class="cal-head"><h3>Consultation</h3><div class="cal-dot open"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Disponible</div><div class="cal-price">52€ <small>/heure</small></div></div>
+</div></div>
+<div class="tab-panel" id="tab-carriere"><div class="cal-grid">
+<div class="cal-card" style="border-color:var(--or-border)"><div class="cal-head"><h3>Intervenante Corporelle</h3><div class="cal-dot waitlist"></div></div><div class="cal-meta"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Avril — Aout 2026</div><div class="cal-price">689€</div><p style="margin-top:10px;font-size:.74rem;color:var(--or-text);font-weight:600">Formation Professionnelle / Certification</p></div>
+</div></div>
+</div></section>
+
+<!-- ═══ COMPOSANT 1 : CURRICULUM ACCORDION (Style MasterClass) ═══ -->
+<section class="curriculum reveal"><div class="container">
+<div class="s-label">Programme Detaille</div>
+<h2 class="s-title">A l'interieur de <i>chaque formation</i></h2>
+<p class="curriculum-sub">Exemple : « Stop Cris &amp; Crises » — 6 semaines d'accompagnement</p>
+<a href="#" class="curr-guide" draggable="false">
+<div class="curr-guide-ico"><svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"></path></svg></div>
+<div class="curr-guide-text"><strong>Class Guide — PDF Offert</strong><span>42 pages d'exercices + fiches pratiques</span></div>
+</a>
+<div class="curr-list">
+<div class="curr-item" data-curr=""><div class="curr-head"><div class="curr-num">01</div><div class="curr-name">Comprendre l'Explosion</div><div class="curr-dur"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>45 min</div><div class="curr-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></div></div><div class="curr-body"><div class="curr-body-inner"><p>Pourquoi ton enfant crie-t-il ? Analyse des mecanismes neurologiques et spirituels derriere les crises.</p><div class="curr-topics"><span class="curr-tag">Cerveau de l'enfant</span><span class="curr-tag">Fitrah</span><span class="curr-tag">Decodage</span></div></div></div></div>
+<div class="curr-item" data-curr=""><div class="curr-head"><div class="curr-num">02</div><div class="curr-name">Le Cadre Prophetique</div><div class="curr-dur"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>52 min</div><div class="curr-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></div></div><div class="curr-body"><div class="curr-body-inner"><p>Comment le Prophete ﷺ posait-il un cadre ? Les 5 principes d'autorite bienveillante tires de la Sunnah.</p><div class="curr-topics"><span class="curr-tag">Hadith</span><span class="curr-tag">Autorite</span><span class="curr-tag">Bienveillance</span></div></div></div></div>
+<div class="curr-item" data-curr=""><div class="curr-head"><div class="curr-num">03</div><div class="curr-name">La Technique du Miroir</div><div class="curr-dur"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>38 min</div><div class="curr-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></div></div><div class="curr-body"><div class="curr-body-inner"><p>L'enfant est le miroir de la mere. Apprenez a identifier vos propres declencheurs avant de reagir.</p><div class="curr-topics"><span class="curr-tag">Introspection</span><span class="curr-tag">Declencheurs</span><span class="curr-tag">Muhasaba</span></div></div></div></div>
+<div class="curr-item" data-curr=""><div class="curr-head"><div class="curr-num">04</div><div class="curr-name">Le Protocole Anti-Crise</div><div class="curr-dur"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>48 min</div><div class="curr-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></div></div><div class="curr-body"><div class="curr-body-inner"><p>Les 7 etapes concretes a appliquer pendant et apres chaque crise. Un plan d'action immediat.</p><div class="curr-topics"><span class="curr-tag">Plan d'action</span><span class="curr-tag">7 etapes</span><span class="curr-tag">Concret</span></div></div></div></div>
+<div class="curr-item" data-curr=""><div class="curr-head"><div class="curr-num">05</div><div class="curr-name">Reparer &amp; Reconstruire</div><div class="curr-dur"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>42 min</div><div class="curr-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></div></div><div class="curr-body"><div class="curr-body-inner"><p>Comment reparer le lien apres un conflit ? L'art du pardon et de la reconciliation dans l'Islam.</p><div class="curr-topics"><span class="curr-tag">Reconciliation</span><span class="curr-tag">Pardon</span><span class="curr-tag">Lien</span></div></div></div></div>
+<div class="curr-item" data-curr=""><div class="curr-head"><div class="curr-num">06</div><div class="curr-name">Le Foyer Serein — Pour Toujours</div><div class="curr-dur"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>55 min</div><div class="curr-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></div></div><div class="curr-body"><div class="curr-body-inner"><p>Installer les rituels qui previennent les crises. Creer un ecosysteme familial durable et nourri par la foi.</p><div class="curr-topics"><span class="curr-tag">Rituels</span><span class="curr-tag">Prevention</span><span class="curr-tag">Perennite</span><span class="curr-tag">Doua</span></div></div></div></div>
+</div>
+</div></section>
+
+<section class="galerie reveal"><div class="container"><div class="s-label" style="justify-content:center">Les Resultats</div><h2 class="s-title">La Preuve par <i>l'Action</i></h2></div>
+<div class="galerie-scroll">
+<div class="gal-frame"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/rootbeerish_simple_line_drawing_illustration_a_young_woman_from_d899e6cd-bc55-4db3-ab75-c0297ee50943.png" alt="Activite" draggable="false"></div>
+<div class="gal-frame"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/jiangyu6688_a_painting_of_an_african_woman_in_a_yellow_and_whit_feed6281-9063-4963-b590-08478501cd57-scaled.png" alt="Activite" draggable="false"></div>
+<div class="gal-frame"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/rootbeerish_simple_line_drawing_illustration_a_young_woman_from_d899e6cd-bc55-4db3-ab75-c0297ee50943.png" alt="Activite" draggable="false"></div>
+<div class="gal-frame"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/jiangyu6688_a_painting_of_an_african_woman_in_a_yellow_and_whit_feed6281-9063-4963-b590-08478501cd57-scaled.png" alt="Activite" draggable="false"></div>
+<div class="gal-frame"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/rootbeerish_simple_line_drawing_illustration_a_young_woman_from_d899e6cd-bc55-4db3-ab75-c0297ee50943.png" alt="Activite" draggable="false"></div>
+<div class="gal-frame"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/jiangyu6688_a_painting_of_an_african_woman_in_a_yellow_and_whit_feed6281-9063-4963-b590-08478501cd57-scaled.png" alt="Activite" draggable="false"></div>
+</div></section>
+
+<section class="wall-section reveal" id="communaute">
+<div class="container"><div class="wall-layout">
+  <div class="wall-text">
+    <div class="s-label">Le Village</div>
+    <h2 class="s-title">Tu n'élèveras plus<br><i>jamais seule</i></h2>
+    <p class="wall-counter">+705 mamans actives</p>
+    <p class="wall-desc">L'isolement est le pire ennemi de la mère. Rejoins une sororité bienveillante qui te tire vers le haut. Ici, pas de jugement, que du soutien, des douas et de l'entraide concrète.</p>
+  </div>
+  <div class="wall-visual">
+    <div class="wall-col">
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/Zazao_httpss-4-scaled.jpg" alt="Temoignage" draggable="false"><p>SubhanAllah, la formation m'a ouvert les yeux. Mon fils est plus calme et moi aussi.</p><div class="card-footer"><span class="author">Oum Ibrahim</span><span class="time">14:32</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/mother-of-my-heart-2-scaled.jpg" alt="Temoignage" draggable="false"><p>Baraka Allahu fiki Umm Adam. Ma fille de 12 ans me parle a nouveau. Alhamdulillah.</p><div class="card-footer"><span class="author">Oum Safiya</span><span class="time">19:47</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/cosmos_A_traditional_rustic_house_in_Bali_surrounded_by_differe_06fd430a-ebe2-484c-be73-7a63da08ebf9.png" alt="Temoignage" draggable="false"><p>Je viens de finir ma 3eme formation. Ma maison est meconnaissable tellement c'est serein.</p><div class="card-footer"><span class="author">Oum Nour</span><span class="time">21:15</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/Zazao_httpss-4-scaled.jpg" alt="Temoignage" draggable="false"><p>La bienveillance ici est réelle. Personne ne juge, tout le monde aide.</p><div class="card-footer"><span class="author">Oum Yasmine</span><span class="time">08:15</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/mother-of-my-heart-2-scaled.jpg" alt="Temoignage" draggable="false"><p>Grâce à vos conseils, j'ai réussi à gérer la crise du coucher sans un cri.</p><div class="card-footer"><span class="author">Oum Hamza</span><span class="time">21:03</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/Zazao_httpss-4-scaled.jpg" alt="Temoignage" draggable="false"><p>SubhanAllah, la formation m'a ouvert les yeux. Mon fils est plus calme et moi aussi.</p><div class="card-footer"><span class="author">Oum Ibrahim</span><span class="time">14:32</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/mother-of-my-heart-2-scaled.jpg" alt="Temoignage" draggable="false"><p>Baraka Allahu fiki Umm Adam. Ma fille de 12 ans me parle a nouveau. Alhamdulillah.</p><div class="card-footer"><span class="author">Oum Safiya</span><span class="time">19:47</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/cosmos_A_traditional_rustic_house_in_Bali_surrounded_by_differe_06fd430a-ebe2-484c-be73-7a63da08ebf9.png" alt="Temoignage" draggable="false"><p>Je viens de finir ma 3eme formation. Ma maison est meconnaissable tellement c'est serein.</p><div class="card-footer"><span class="author">Oum Nour</span><span class="time">21:15</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/Zazao_httpss-4-scaled.jpg" alt="Temoignage" draggable="false"><p>La bienveillance ici est réelle. Personne ne juge, tout le monde aide.</p><div class="card-footer"><span class="author">Oum Yasmine</span><span class="time">08:15</span></div></div>
+      <div class="wall-card"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/mother-of-my-heart-2-scaled.jpg" alt="Temoignage" draggable="false"><p>Grâce à vos conseils, j'ai réussi à gérer la crise du coucher sans un cri.</p><div class="card-footer"><span class="author">Oum Hamza</span><span class="time">21:03</span></div></div>
+    </div>
+  </div>
+</div></div>
+</section>
+
+<div class="section-sep"><img src="https://mamanetvertus.com/wp-content/uploads/2026/02/tzangms_Abstract_tribal_pattern_inspired_by_African_textiles_ha_36a53980-0579-4f0b-980c-f7af9331c005-scaled-e1770389283761.png" alt="" style="" draggable="false"></div>
+
+<footer class="footer"><div class="container">
+<div class="mentorat"><div class="s-label">Service Premium</div><h3>Mentorat Maternel</h3><p>Un accompagnement sur-mesure pour transformer en profondeur votre foyer.</p><a href="#" class="btn-or" draggable="false">Demander un devis <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg></a><div class="mentorat-excl">Seulement 2 familles par an</div></div>
+<div class="livre-dor"><h3>Le Livre d'Or</h3><p>Laissez un mot pour la communaute...</p><div class="ldor-form"><input type="text" placeholder="Votre prenom"><textarea rows="3" placeholder="Votre message..."></textarea><button class="btn-or" type="button">Envoyer <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg></button></div></div>
+<div class="foot-bottom"><div class="foot-logo">Maman <span>&amp;</span> Vertus</div><ul class="foot-links"><li><a href="#" draggable="false">Mentions legales</a></li><li><a href="#" draggable="false">Confidentialite</a></li><li><a href="#" draggable="false">Contact</a></li><li><a href="#" draggable="false">Instagram</a></li></ul><div class="foot-copy">mamanetvertus.com — Tous droits reserves 2026</div></div>
+</div></footer>
+
+<div class="audio-fab" id="audioFab"><div class="fab-tip">Ecoute la voix d'Umm Adam</div><svg class="ico-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg><svg class="ico-pause" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg></div>
+
+<script>
+(function(){'use strict';
+var nav=document.getElementById('mainNav'),burger=document.getElementById('burger'),nl=document.getElementById('navLinks');
+window.addEventListener('scroll',function(){nav.classList.toggle('scrolled',window.scrollY>40)});
+nav.classList.toggle('scrolled',window.scrollY>40);
+burger.addEventListener('click',function(){nl.classList.toggle('open')});
+nl.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nl.classList.remove('open')})});
+function animC(el){if(el.dataset.done)return;var t=+el.dataset.count,d=2200,s=performance.now();el.dataset.done='1';(function step(n){var p=Math.min((n-s)/d,1);el.textContent=Math.floor((1-Math.pow(1-p,3))*t);if(p<1)requestAnimationFrame(step);else el.textContent=t})(s)}
+var ct=new Date('2026-04-01T20:50:00').getTime();
+function tick(){var d=ct-Date.now();if(d<=0)return;var dd=Math.floor(d/864e5),hh=Math.floor(d%864e5/36e5),mm=Math.floor(d%36e5/6e4),ss=Math.floor(d%6e4/1e3);document.getElementById('cdD').textContent=dd<10?'0'+dd:dd;document.getElementById('cdH').textContent=hh<10?'0'+hh:hh;document.getElementById('cdM').textContent=mm<10?'0'+mm:mm;document.getElementById('cdS').textContent=ss<10?'0'+ss:ss}
+tick();setInterval(tick,1000);
+document.querySelectorAll('[data-card]').forEach(function(c){c.addEventListener('click',function(){var a=this.classList.contains('active');document.querySelectorAll('[data-card]').forEach(function(x){x.classList.remove('active')});if(!a)this.classList.add('active')})});
+document.querySelectorAll('.tab-btn').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.tab-btn').forEach(function(x){x.classList.remove('active')});document.querySelectorAll('.tab-panel').forEach(function(x){x.classList.remove('active')});this.classList.add('active');document.getElementById('tab-'+this.dataset.tab).classList.add('active')})});
+var cvT=document.getElementById('cvToggle'),cvB=document.getElementById('cvBody');
+cvT.addEventListener('click',function(){cvB.classList.toggle('open');cvT.classList.toggle('open')});
+document.getElementById('audioFab').addEventListener('click',function(){this.classList.toggle('playing')});
+/* ═══ BENTO GRID — Glow Follow Mouse (Style Linear) ═══ */
+var bentoGrid=document.getElementById('bentoGrid');
+if(bentoGrid){bentoGrid.addEventListener('mousemove',function(e){var cards=bentoGrid.querySelectorAll('.bento-card');cards.forEach(function(c){var r=c.getBoundingClientRect();var x=e.clientX-r.left-150;var y=e.clientY-r.top-150;c.style.setProperty('--mouse-x',x+'px');c.style.setProperty('--mouse-y',y+'px')})});}
+/* ═══ CURRICULUM ACCORDION (Style MasterClass) ═══ */
+document.querySelectorAll('[data-curr]').forEach(function(item){item.querySelector('.curr-head').addEventListener('click',function(){var wasOpen=item.classList.contains('open');document.querySelectorAll('[data-curr]').forEach(function(x){x.classList.remove('open')});if(!wasOpen)item.classList.add('open')})});
+/* ═══ MARQUEE INFINITE — Clone Cards for Seamless Loop ═══ */
+document.querySelectorAll('.marquee-track').forEach(function(track){var cards=track.innerHTML;track.innerHTML=cards+cards});
+var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');e.target.querySelectorAll('[data-count]').forEach(animC)}})},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el)});
+var sr=document.querySelector('.hero-stats');if(sr){var sO=new IntersectionObserver(function(e){if(e[0].isIntersecting)sr.querySelectorAll('[data-count]').forEach(animC)},{threshold:.3});sO.observe(sr)}
+var sig=document.getElementById('signature');if(sig){var sigO=new IntersectionObserver(function(e){if(e[0].isIntersecting)sig.classList.add('animate')},{threshold:.5});sigO.observe(sig)}
+/* ═══ BENTO CARDS SCROLL ACTIVATION ═══ */
+var bentoCards=document.querySelectorAll('.bento-card');
+var bentoObs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('scroll-active');setTimeout(function(){e.target.classList.remove('scroll-active')},2000)}})},{threshold:.5,rootMargin:'0px 0px -10% 0px'});
+bentoCards.forEach(function(card){bentoObs.observe(card)})
+})();
+</script>
+<!-- CONFETTI CANVAS -->
+<canvas id="mv-confetti-canvas"></canvas>
+
+<!-- MODAL OVERLAY -->
+<div class="mv-modal-overlay" id="mvModalOverlay"></div>
+
+<!-- MODAL COCON -->
+<div class="mv-modal" id="mvModal">
+<button class="mv-modal-close" id="mvModalClose" type="button" aria-label="Fermer">
+<svg viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6L18 18" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+<div class="mv-modal-icon">
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="modalGold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#D4AF37"></stop><stop offset="50%" stop-color="#F5D374"></stop><stop offset="100%" stop-color="#E5C76B"></stop></linearGradient></defs>
+<circle cx="50" cy="50" r="46" fill="none" stroke="url(#modalGold)" stroke-width="2" opacity=".3"></circle>
+<circle cx="50" cy="50" r="40" fill="none" stroke="url(#modalGold)" stroke-width="1" opacity=".15"></circle>
+<path d="M50 78 C50 78 20 58 20 38 C20 28 28 22 38 22 C44 22 48 26 50 30 C52 26 56 22 62 22 C72 22 80 28 80 38 C80 58 50 78 50 78Z" fill="url(#modalGold)"></path>
+</svg>
+</div>
+<h3>Une place t'attend dans notre village, Oumi.</h3>
+<p>Ta demarche aujourd'hui n'est pas un simple clic. C'est le premier pas pour honorer l'Amana de tes enfants avec plus de serenite. Respire, tu n'es plus seule dans ce voyage.</p>
+<a href="https://chat.whatsapp.com/DpdRrq7AK10JPYrmVKTPZF" target="_blank" rel="noopener" class="mv-modal-btn" id="mvConfirmBtn" draggable="false">Confirmer mon acces sur WhatsApp</a>
+</div>
+<script>
+(function(){
+var modal=document.getElementById('mvModal'),overlay=document.getElementById('mvModalOverlay'),openBtn=document.getElementById('mvOpenModal'),closeBtn=document.getElementById('mvModalClose'),scrollPos=0;
+function openModal(e){if(e){e.preventDefault();e.stopPropagation()}scrollPos=window.pageYOffset||document.documentElement.scrollTop;document.body.classList.add('mv-modal-open');overlay.classList.add('active');modal.classList.add('active');launchConfetti()}
+function closeModal(e){if(e){e.preventDefault();e.stopPropagation()}overlay.classList.remove('active');modal.classList.remove('active');document.body.classList.remove('mv-modal-open');window.scrollTo(0,scrollPos)}
+openBtn.addEventListener('click',openModal);
+closeBtn.addEventListener('click',closeModal);
+overlay.addEventListener('click',function(e){if(e.target===overlay)closeModal(e)});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&modal.classList.contains('active'))closeModal()});
+
+var canvas=document.getElementById('mv-confetti-canvas'),ctx=canvas.getContext('2d'),confettis=[],animId=null;
+function resizeC(){canvas.width=window.innerWidth;canvas.height=window.innerHeight}
+window.addEventListener('resize',resizeC);resizeC();
+var colors=['#D4AF37','#E5446D','#FF6B35','#3B82F6','#8B5CF6','#F59E0B','#EC4899','#06B6D4','#10B981','#F97316'];
+function createC(){return{x:Math.random()*canvas.width,y:-20,w:Math.random()*8+4,h:Math.random()*6+2,color:colors[Math.floor(Math.random()*colors.length)],speed:Math.random()*3+2,angle:Math.random()*Math.PI*2,spin:(Math.random()-.5)*.2,isCircle:Math.random()>.6}}
+function drawC(){ctx.clearRect(0,0,canvas.width,canvas.height);confettis.forEach(function(c,i){ctx.save();ctx.translate(c.x,c.y);ctx.rotate(c.angle);ctx.fillStyle=c.color;if(c.isCircle){ctx.beginPath();ctx.arc(0,0,c.w/2,0,Math.PI*2);ctx.fill()}else{ctx.fillRect(-c.w/2,-c.h/2,c.w,c.h)}ctx.restore();c.y+=c.speed;c.angle+=c.spin;c.x+=Math.sin(c.y*.02)*.5;if(c.y>canvas.height+20)confettis.splice(i,1)});if(confettis.length>0)animId=requestAnimationFrame(drawC)}
+function launchConfetti(){confettis=[];for(var i=0;i<150;i++){var c=createC();c.y=Math.random()*-500;confettis.push(c)}if(animId)cancelAnimationFrame(animId);drawC()}
+
+/* Workshop cursor */
+var atelierVisual = document.getElementById('atelierVisual');
+var cursorVoir = document.getElementById('cursorVoir');
+var atelierItems = document.querySelectorAll('.atelier-item');
+if(atelierVisual && cursorVoir && atelierItems.length){
+  var mouseX = 0, mouseY = 0, visualX = 0, visualY = 0, cursorX = 0, cursorY = 0;
+  var isHovering = false;
+  function lerp(start, end, factor) { return start + (end - start) * factor; }
+  function animateElements() {
+    visualX = lerp(visualX, mouseX, 0.1);
+    visualY = lerp(visualY, mouseY, 0.1);
+    cursorX = lerp(cursorX, mouseX, 0.15);
+    cursorY = lerp(cursorY, mouseY, 0.15);
+    atelierVisual.style.left = visualX + 20 + 'px';
+    atelierVisual.style.top = visualY - 110 + 'px';
+    cursorVoir.style.left = cursorX - 35 + 'px';
+    cursorVoir.style.top = cursorY - 35 + 'px';
+    requestAnimationFrame(animateElements);
+  }
+  animateElements();
+  atelierItems.forEach(function(item){
+    item.addEventListener('mouseenter', function(){
+      var imgSrc = this.getAttribute('data-img');
+      atelierVisual.querySelector('img').src = imgSrc;
+      atelierVisual.classList.add('visible');
+      cursorVoir.classList.add('active');
+      isHovering = true;
+    });
+    item.addEventListener('mouseleave', function(){
+      atelierVisual.classList.remove('visible');
+      cursorVoir.classList.remove('active');
+      isHovering = false;
+    });
+    item.addEventListener('mousemove', function(e){
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    });
+  });
+}
+})();
+
+/* Multi-stack swipe */
+(function(){
+  var stacks = document.querySelectorAll('.stack-container');
+  stacks.forEach(function(container){
+    var cards = Array.from(container.querySelectorAll('.stack-card'));
+    var column = container.closest('.stack-column');
+    var dots = column ? Array.from(column.querySelectorAll('.stack-dot')) : [];
+    var currentIndex = 0;
+    var startX = 0, currentX = 0, isDragging = false;
+    var threshold = 60;
+    function updateStack(){
+      cards.forEach(function(card, i){
+        card.style.transition = 'transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.4s ease';
+        card.classList.remove('swiping-left', 'swiping-right');
+        var diff = i - currentIndex;
+        card.setAttribute('data-pos', diff);
+        if(diff === 0){ card.style.transform = 'translateY(0) scale(1)'; card.style.opacity = '1'; card.style.zIndex = '5'; card.style.pointerEvents = 'auto'; }
+        else if(diff === 1){ card.style.transform = 'translateY(12px) scale(0.95)'; card.style.opacity = '0.6'; card.style.zIndex = '4'; card.style.pointerEvents = 'none'; }
+        else if(diff === 2){ card.style.transform = 'translateY(24px) scale(0.9)'; card.style.opacity = '0.3'; card.style.zIndex = '3'; card.style.pointerEvents = 'none'; }
+        else if(diff < 0){ card.style.transform = 'translateX(-120%) rotate(-12deg)'; card.style.opacity = '0'; card.style.zIndex = '1'; card.style.pointerEvents = 'none'; }
+        else { card.style.transform = 'translateY(36px) scale(0.85)'; card.style.opacity = '0'; card.style.zIndex = '1'; card.style.pointerEvents = 'none'; }
+      });
+      dots.forEach(function(d, i){ d.classList.toggle('active', i === currentIndex); });
+    }
+    function handleStart(e){ var card = cards[currentIndex]; if(!card) return; startX = e.type.includes('mouse') ? e.clientX : e.touches[0].clientX; isDragging = true; card.style.transition = 'none'; }
+    function handleMove(e){ if(!isDragging) return; var card = cards[currentIndex]; if(!card) return; var clientX = e.type.includes('mouse') ? e.clientX : e.touches[0].clientX; currentX = clientX - startX; var rotation = currentX * 0.08; card.style.transform = 'translateX(' + currentX + 'px) rotate(' + rotation + 'deg)'; card.classList.toggle('swiping-right', currentX > 30); card.classList.toggle('swiping-left', currentX < -30); }
+    function handleEnd(){ if(!isDragging) return; var card = cards[currentIndex]; if(!card) return; isDragging = false; card.style.transition = 'transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.3s ease'; if(Math.abs(currentX) > threshold && currentIndex < cards.length - 1){ var dir = currentX > 0 ? 1 : -1; card.style.transform = 'translateX(' + (dir * 120) + '%) rotate(' + (dir * 12) + 'deg)'; card.style.opacity = '0'; currentIndex++; setTimeout(updateStack, 250); } else if(Math.abs(currentX) > threshold && currentIndex === cards.length - 1){ var dir = currentX > 0 ? 1 : -1; card.style.transform = 'translateX(' + (dir * 120) + '%) rotate(' + (dir * 12) + 'deg)'; card.style.opacity = '0'; setTimeout(function(){ currentIndex = 0; updateStack(); }, 300); } else { updateStack(); } currentX = 0; }
+    container.addEventListener('touchstart', handleStart, {passive: true});
+    container.addEventListener('touchmove', handleMove, {passive: true});
+    container.addEventListener('touchend', handleEnd);
+    container.addEventListener('mousedown', handleStart);
+    container.addEventListener('mousemove', function(e){ if(isDragging) handleMove(e); });
+    container.addEventListener('mouseup', handleEnd);
+    container.addEventListener('mouseleave', handleEnd);
+    dots.forEach(function(dot, i){ dot.addEventListener('click', function(){ currentIndex = i; updateStack(); }); });
+    updateStack();
+  });
+})();
+</script>
+</body>
+</html>
